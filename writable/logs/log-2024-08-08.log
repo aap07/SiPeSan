@@ -1,0 +1,792 @@
+INFO - 2024-08-08 04:47:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 04:47:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 04:47:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 04:47:36 --> CSRF token verified.
+INFO - 2024-08-08 04:47:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 04:47:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 04:49:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 04:49:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 04:49:10 --> CSRF token verified.
+INFO - 2024-08-08 04:49:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 04:49:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 04:49:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 04:49:14 --> CSRF token verified.
+INFO - 2024-08-08 04:49:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 04:49:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 04:49:17 --> CSRF token verified.
+INFO - 2024-08-08 06:04:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 06:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 06:04:50 --> CSRF token verified.
+INFO - 2024-08-08 06:05:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 06:05:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 06:05:44 --> CSRF token verified.
+CRITICAL - 2024-08-08 13:20:20 --> ParseError: syntax error, unexpected token "}"
+in APPPATH\Config\Routes.php on line 82.
+ 1 SYSTEMPATH\CodeIgniter.php(811): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+CRITICAL - 2024-08-08 13:20:22 --> ParseError: syntax error, unexpected token "}"
+in APPPATH\Config\Routes.php on line 82.
+ 1 SYSTEMPATH\CodeIgniter.php(811): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+CRITICAL - 2024-08-08 13:20:26 --> ParseError: syntax error, unexpected token "}"
+in APPPATH\Config\Routes.php on line 82.
+ 1 SYSTEMPATH\CodeIgniter.php(811): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-08 13:20:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 13:20:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 13:20:43 --> CSRF token verified.
+INFO - 2024-08-08 13:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 13:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 13:20:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 13:20:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 13:20:48 --> CSRF token verified.
+INFO - 2024-08-08 13:20:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 13:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 13:20:57 --> CSRF token verified.
+INFO - 2024-08-08 13:20:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 13:20:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 13:20:59 --> CSRF token verified.
+INFO - 2024-08-08 13:21:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 13:21:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 13:21:16 --> CSRF token verified.
+INFO - 2024-08-08 13:21:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 13:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 13:21:28 --> CSRF token verified.
+INFO - 2024-08-08 14:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 14:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 14:29:06 --> CSRF token verified.
+INFO - 2024-08-08 14:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 14:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 14:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 14:29:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 14:29:11 --> CSRF token verified.
+INFO - 2024-08-08 14:29:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 15:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 15:34:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 15:34:27 --> CSRF token verified.
+INFO - 2024-08-08 15:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 15:34:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 15:34:40 --> CSRF token verified.
+INFO - 2024-08-08 15:34:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 15:34:41 --> CSRF token verified.
+INFO - 2024-08-08 15:35:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 15:35:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 15:35:25 --> CSRF token verified.
+INFO - 2024-08-08 15:35:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 15:35:25 --> CSRF token verified.
+INFO - 2024-08-08 15:35:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 15:35:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 15:35:35 --> CSRF token verified.
+INFO - 2024-08-08 15:35:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 15:35:36 --> CSRF token verified.
+INFO - 2024-08-08 15:35:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 15:35:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 15:35:53 --> CSRF token verified.
+INFO - 2024-08-08 15:35:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 15:35:54 --> CSRF token verified.
+INFO - 2024-08-08 15:35:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 15:36:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 15:36:07 --> CSRF token verified.
+INFO - 2024-08-08 15:36:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 15:36:07 --> CSRF token verified.
+INFO - 2024-08-08 15:36:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 15:36:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 15:36:10 --> CSRF token verified.
+INFO - 2024-08-08 15:36:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 15:36:14 --> CSRF token verified.
+INFO - 2024-08-08 15:36:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 15:36:17 --> CSRF token verified.
+INFO - 2024-08-08 15:36:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 15:36:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 15:36:25 --> CSRF token verified.
+INFO - 2024-08-08 15:36:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 15:36:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 15:36:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 15:36:31 --> CSRF token verified.
+INFO - 2024-08-08 15:46:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 15:46:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 15:46:53 --> CSRF token verified.
+INFO - 2024-08-08 15:46:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-08 15:46:59 --> ErrorException: Attempt to read property "id_kriteria" on array
+in APPPATH\Views\backend\view\recruitment\subkriteria_management.php on line 30.
+ 1 APPPATH\Views\backend\view\recruitment\subkriteria_management.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kriteria" on array', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\subkriteria_management.php', 30)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\subkriteria_management.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/recruitment/subkriteria_management', [], true)
+ 5 APPPATH\Controllers\Backend\Modules\Recruitment.php(580): view('backend/view/recruitment/subkriteria_management', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->subkriteriaManagement()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-08 15:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-08 15:47:52 --> ErrorException: Attempt to read property "id_kriteria" on array
+in APPPATH\Views\backend\view\recruitment\subkriteria_management.php on line 30.
+ 1 APPPATH\Views\backend\view\recruitment\subkriteria_management.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kriteria" on array', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\subkriteria_management.php', 30)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\subkriteria_management.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/recruitment/subkriteria_management', [], true)
+ 5 APPPATH\Controllers\Backend\Modules\Recruitment.php(580): view('backend/view/recruitment/subkriteria_management', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->subkriteriaManagement()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-08 15:49:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 15:49:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 15:49:27 --> CSRF token verified.
+INFO - 2024-08-08 15:49:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 15:49:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 15:49:35 --> CSRF token verified.
+INFO - 2024-08-08 15:50:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 15:50:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 15:50:30 --> CSRF token verified.
+INFO - 2024-08-08 15:50:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 15:50:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 15:50:33 --> CSRF token verified.
+INFO - 2024-08-08 15:55:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 15:55:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 15:55:15 --> CSRF token verified.
+DEBUG - 2024-08-08 15:55:15 --> ID Subkriteria: 
+INFO - 2024-08-08 15:55:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 15:55:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 15:55:19 --> CSRF token verified.
+INFO - 2024-08-08 15:55:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 15:55:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 15:55:21 --> CSRF token verified.
+DEBUG - 2024-08-08 15:55:21 --> ID Subkriteria: 
+INFO - 2024-08-08 15:57:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 15:57:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 15:57:34 --> CSRF token verified.
+CRITICAL - 2024-08-08 15:57:34 --> ArgumentCountError: Too few arguments to function App\Models\SubkriteriaModel::_get_datatables_query(), 1 passed in C:\xampp\htdocs\demo_spk_ahp\app\Models\SubkriteriaModel.php on line 89 and exactly 2 expected
+in APPPATH\Models\SubkriteriaModel.php on line 34.
+ 1 APPPATH\Models\SubkriteriaModel.php(89): App\Models\SubkriteriaModel->_get_datatables_query('1')
+ 2 APPPATH\Controllers\Backend\Modules\Recruitment.php(619): App\Models\SubkriteriaModel->count_all('1')
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->listSubkriteria()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-08 15:57:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 15:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 15:57:39 --> CSRF token verified.
+INFO - 2024-08-08 15:57:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 15:57:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 15:57:42 --> CSRF token verified.
+CRITICAL - 2024-08-08 15:57:42 --> ArgumentCountError: Too few arguments to function App\Models\SubkriteriaModel::_get_datatables_query(), 1 passed in C:\xampp\htdocs\demo_spk_ahp\app\Models\SubkriteriaModel.php on line 89 and exactly 2 expected
+in APPPATH\Models\SubkriteriaModel.php on line 34.
+ 1 APPPATH\Models\SubkriteriaModel.php(89): App\Models\SubkriteriaModel->_get_datatables_query('1')
+ 2 APPPATH\Controllers\Backend\Modules\Recruitment.php(619): App\Models\SubkriteriaModel->count_all('1')
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->listSubkriteria()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-08 15:57:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 15:57:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 15:57:59 --> CSRF token verified.
+CRITICAL - 2024-08-08 15:57:59 --> ArgumentCountError: Too few arguments to function App\Models\SubkriteriaModel::_get_datatables_query(), 1 passed in C:\xampp\htdocs\demo_spk_ahp\app\Models\SubkriteriaModel.php on line 89 and exactly 2 expected
+in APPPATH\Models\SubkriteriaModel.php on line 34.
+ 1 APPPATH\Models\SubkriteriaModel.php(89): App\Models\SubkriteriaModel->_get_datatables_query('1')
+ 2 APPPATH\Controllers\Backend\Modules\Recruitment.php(619): App\Models\SubkriteriaModel->count_all('1')
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->listSubkriteria()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-08 15:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 15:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 15:58:03 --> CSRF token verified.
+INFO - 2024-08-08 15:58:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 15:58:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 15:58:05 --> CSRF token verified.
+CRITICAL - 2024-08-08 15:58:05 --> ArgumentCountError: Too few arguments to function App\Models\SubkriteriaModel::_get_datatables_query(), 1 passed in C:\xampp\htdocs\demo_spk_ahp\app\Models\SubkriteriaModel.php on line 89 and exactly 2 expected
+in APPPATH\Models\SubkriteriaModel.php on line 34.
+ 1 APPPATH\Models\SubkriteriaModel.php(89): App\Models\SubkriteriaModel->_get_datatables_query('1')
+ 2 APPPATH\Controllers\Backend\Modules\Recruitment.php(619): App\Models\SubkriteriaModel->count_all('1')
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->listSubkriteria()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-08 16:01:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:01:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:01:13 --> CSRF token verified.
+INFO - 2024-08-08 16:01:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:01:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:01:15 --> CSRF token verified.
+CRITICAL - 2024-08-08 16:01:15 --> ArgumentCountError: Too few arguments to function App\Models\SubkriteriaModel::_get_datatables_query(), 1 passed in C:\xampp\htdocs\demo_spk_ahp\app\Models\SubkriteriaModel.php on line 89 and exactly 2 expected
+in APPPATH\Models\SubkriteriaModel.php on line 34.
+ 1 APPPATH\Models\SubkriteriaModel.php(89): App\Models\SubkriteriaModel->_get_datatables_query('1')
+ 2 APPPATH\Controllers\Backend\Modules\Recruitment.php(619): App\Models\SubkriteriaModel->count_all('1')
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->listSubkriteria()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-08 16:02:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:02:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:02:18 --> CSRF token verified.
+INFO - 2024-08-08 16:02:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:02:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:02:20 --> CSRF token verified.
+CRITICAL - 2024-08-08 16:02:20 --> ArgumentCountError: Too few arguments to function App\Models\SubkriteriaModel::_get_datatables_query(), 1 passed in C:\xampp\htdocs\demo_spk_ahp\app\Models\SubkriteriaModel.php on line 89 and exactly 2 expected
+in APPPATH\Models\SubkriteriaModel.php on line 34.
+ 1 APPPATH\Models\SubkriteriaModel.php(89): App\Models\SubkriteriaModel->_get_datatables_query('1')
+ 2 APPPATH\Controllers\Backend\Modules\Recruitment.php(619): App\Models\SubkriteriaModel->count_all('1')
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->listSubkriteria()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-08 16:04:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:04:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:04:21 --> CSRF token verified.
+INFO - 2024-08-08 16:04:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:04:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:04:25 --> CSRF token verified.
+CRITICAL - 2024-08-08 16:04:25 --> ArgumentCountError: Too few arguments to function App\Models\SubkriteriaModel::_get_datatables_query(), 1 passed in C:\xampp\htdocs\demo_spk_ahp\app\Models\SubkriteriaModel.php on line 90 and exactly 2 expected
+in APPPATH\Models\SubkriteriaModel.php on line 34.
+ 1 APPPATH\Models\SubkriteriaModel.php(90): App\Models\SubkriteriaModel->_get_datatables_query('1')
+ 2 APPPATH\Controllers\Backend\Modules\Recruitment.php(619): App\Models\SubkriteriaModel->count_all('1')
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->listSubkriteria()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-08 16:04:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:04:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:04:59 --> CSRF token verified.
+INFO - 2024-08-08 16:05:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:05:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:05:01 --> CSRF token verified.
+CRITICAL - 2024-08-08 16:05:01 --> ArgumentCountError: Too few arguments to function App\Models\SubkriteriaModel::_get_datatables_query(), 1 passed in C:\xampp\htdocs\demo_spk_ahp\app\Models\SubkriteriaModel.php on line 90 and exactly 2 expected
+in APPPATH\Models\SubkriteriaModel.php on line 34.
+ 1 APPPATH\Models\SubkriteriaModel.php(90): App\Models\SubkriteriaModel->_get_datatables_query('1')
+ 2 APPPATH\Controllers\Backend\Modules\Recruitment.php(619): App\Models\SubkriteriaModel->count_all('1')
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->listSubkriteria()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-08 16:05:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:05:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:05:20 --> CSRF token verified.
+INFO - 2024-08-08 16:05:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:05:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:05:23 --> CSRF token verified.
+CRITICAL - 2024-08-08 16:05:23 --> ArgumentCountError: Too few arguments to function App\Models\SubkriteriaModel::_get_datatables_query(), 1 passed in C:\xampp\htdocs\demo_spk_ahp\app\Models\SubkriteriaModel.php on line 90 and exactly 2 expected
+in APPPATH\Models\SubkriteriaModel.php on line 34.
+ 1 APPPATH\Models\SubkriteriaModel.php(90): App\Models\SubkriteriaModel->_get_datatables_query('1')
+ 2 APPPATH\Controllers\Backend\Modules\Recruitment.php(619): App\Models\SubkriteriaModel->count_all('1')
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->listSubkriteria()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-08 16:08:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:08:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:08:20 --> CSRF token verified.
+INFO - 2024-08-08 16:08:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:08:23 --> CSRF token verified.
+CRITICAL - 2024-08-08 16:08:23 --> ArgumentCountError: Too few arguments to function App\Models\SubkriteriaModel::_get_datatables_query(), 1 passed in C:\xampp\htdocs\demo_spk_ahp\app\Models\SubkriteriaModel.php on line 90 and exactly 2 expected
+in APPPATH\Models\SubkriteriaModel.php on line 34.
+ 1 APPPATH\Models\SubkriteriaModel.php(90): App\Models\SubkriteriaModel->_get_datatables_query('1')
+ 2 APPPATH\Controllers\Backend\Modules\Recruitment.php(619): App\Models\SubkriteriaModel->count_all('1')
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->listSubkriteria()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-08 16:08:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:08:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:08:36 --> CSRF token verified.
+INFO - 2024-08-08 16:08:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:08:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:08:50 --> CSRF token verified.
+CRITICAL - 2024-08-08 16:08:50 --> ArgumentCountError: Too few arguments to function App\Models\SubkriteriaModel::_get_datatables_query(), 1 passed in C:\xampp\htdocs\demo_spk_ahp\app\Models\SubkriteriaModel.php on line 90 and exactly 2 expected
+in APPPATH\Models\SubkriteriaModel.php on line 34.
+ 1 APPPATH\Models\SubkriteriaModel.php(90): App\Models\SubkriteriaModel->_get_datatables_query('1')
+ 2 APPPATH\Controllers\Backend\Modules\Recruitment.php(619): App\Models\SubkriteriaModel->count_all('1')
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->listSubkriteria()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-08 16:10:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:10:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:10:20 --> CSRF token verified.
+INFO - 2024-08-08 16:10:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:10:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:10:23 --> CSRF token verified.
+CRITICAL - 2024-08-08 16:10:23 --> ArgumentCountError: Too few arguments to function App\Models\SubkriteriaModel::_get_datatables_query(), 1 passed in C:\xampp\htdocs\demo_spk_ahp\app\Models\SubkriteriaModel.php on line 90 and exactly 2 expected
+in APPPATH\Models\SubkriteriaModel.php on line 34.
+ 1 APPPATH\Models\SubkriteriaModel.php(90): App\Models\SubkriteriaModel->_get_datatables_query('1')
+ 2 APPPATH\Controllers\Backend\Modules\Recruitment.php(619): App\Models\SubkriteriaModel->count_all('1')
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->listSubkriteria()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-08 16:12:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:12:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:12:52 --> CSRF token verified.
+INFO - 2024-08-08 16:12:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:12:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:12:55 --> CSRF token verified.
+CRITICAL - 2024-08-08 16:12:55 --> ArgumentCountError: Too few arguments to function App\Models\SubkriteriaModel::_get_datatables_query(), 1 passed in C:\xampp\htdocs\demo_spk_ahp\app\Models\SubkriteriaModel.php on line 90 and exactly 2 expected
+in APPPATH\Models\SubkriteriaModel.php on line 34.
+ 1 APPPATH\Models\SubkriteriaModel.php(90): App\Models\SubkriteriaModel->_get_datatables_query('1')
+ 2 APPPATH\Controllers\Backend\Modules\Recruitment.php(619): App\Models\SubkriteriaModel->count_all('1')
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->listSubkriteria()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-08 16:13:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:13:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:13:15 --> CSRF token verified.
+INFO - 2024-08-08 16:13:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:13:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:13:19 --> CSRF token verified.
+CRITICAL - 2024-08-08 16:13:19 --> ArgumentCountError: Too few arguments to function App\Models\SubkriteriaModel::_get_datatables_query(), 1 passed in C:\xampp\htdocs\demo_spk_ahp\app\Models\SubkriteriaModel.php on line 90 and exactly 2 expected
+in APPPATH\Models\SubkriteriaModel.php on line 34.
+ 1 APPPATH\Models\SubkriteriaModel.php(90): App\Models\SubkriteriaModel->_get_datatables_query('1')
+ 2 APPPATH\Controllers\Backend\Modules\Recruitment.php(619): App\Models\SubkriteriaModel->count_all('1')
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->listSubkriteria()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-08 16:14:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:15:01 --> CSRF token verified.
+INFO - 2024-08-08 16:15:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:15:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:15:06 --> CSRF token verified.
+CRITICAL - 2024-08-08 16:15:06 --> ArgumentCountError: Too few arguments to function App\Models\SubkriteriaModel::_get_datatables_query(), 1 passed in C:\xampp\htdocs\demo_spk_ahp\app\Models\SubkriteriaModel.php on line 90 and exactly 2 expected
+in APPPATH\Models\SubkriteriaModel.php on line 34.
+ 1 APPPATH\Models\SubkriteriaModel.php(90): App\Models\SubkriteriaModel->_get_datatables_query('1')
+ 2 APPPATH\Controllers\Backend\Modules\Recruitment.php(619): App\Models\SubkriteriaModel->count_all('1')
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->listSubkriteria()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-08 16:16:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:16:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:16:29 --> CSRF token verified.
+INFO - 2024-08-08 16:16:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:16:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:16:36 --> CSRF token verified.
+INFO - 2024-08-08 16:19:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:19:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:19:18 --> CSRF token verified.
+INFO - 2024-08-08 16:19:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:19:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:19:46 --> CSRF token verified.
+INFO - 2024-08-08 16:20:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:20:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:20:29 --> CSRF token verified.
+INFO - 2024-08-08 16:21:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:21:04 --> CSRF token verified.
+INFO - 2024-08-08 16:22:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:22:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:22:58 --> CSRF token verified.
+INFO - 2024-08-08 16:23:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:23:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:23:39 --> CSRF token verified.
+INFO - 2024-08-08 16:24:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:24:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:24:34 --> CSRF token verified.
+INFO - 2024-08-08 16:26:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:26:11 --> CSRF token verified.
+ERROR - 2024-08-08 16:26:11 --> mysqli_sql_exception: Column 'id_kriteria' in where clause is ambiguous in C:\xampp\htdocs\demo_spk_ahp\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\demo_spk_ahp\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\demo_spk_ahp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\demo_spk_ahp\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\demo_spk_ahp\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\demo_spk_ahp\app\Models\SubkriteriaModel.php(77): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\demo_spk_ahp\app\Controllers\Backend\Modules\Recruitment.php(592): App\Models\SubkriteriaModel->get_datatables('1')
+#6 C:\xampp\htdocs\demo_spk_ahp\system\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->listSubkriteria()
+#7 C:\xampp\htdocs\demo_spk_ahp\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+#8 C:\xampp\htdocs\demo_spk_ahp\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\demo_spk_ahp\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\demo_spk_ahp\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-08-08 16:26:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'id_kriteria' in where clause is ambiguous
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `subkriteria`
+LEFT JOIN `kriteria` ON `kriteria`.`id_kriteria` = `subkriteria`.`id_kriteria`
+LEFT JOIN `nilai_kategori` ON `nilai_kategori`.`id_nilai` = `subkriteria`.`id_nilai`
+WHERE `id_kriteria` = :id_kriteria:
+ORDER BY `subkriteria`.`id_subkriteria` ASC
+ LIMIT 10', [...], false)
+ 2 APPPATH\Models\SubkriteriaModel.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Backend\Modules\Recruitment.php(592): App\Models\SubkriteriaModel->get_datatables('1')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->listSubkriteria()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+CRITICAL - 2024-08-08 16:26:11 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'id_kriteria' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `subkriteria`
+LEFT JOIN `kriteria` ON `kriteria`.`id_kriteria` = `subkriteria`.`id_kriteria`
+LEFT JOIN `nilai_kategori` ON `nilai_kategori`.`id_nilai` = `subkriteria`.`id_nilai`
+WHERE `id_kriteria` = 1
+ORDER BY `subkriteria`.`id_subkriteria` ASC
+ LIMIT 10')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `subkriteria`
+LEFT JOIN `kriteria` ON `kriteria`.`id_kriteria` = `subkriteria`.`id_kriteria`
+LEFT JOIN `nilai_kategori` ON `nilai_kategori`.`id_nilai` = `subkriteria`.`id_nilai`
+WHERE `id_kriteria` = 1
+ORDER BY `subkriteria`.`id_subkriteria` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `subkriteria`
+LEFT JOIN `kriteria` ON `kriteria`.`id_kriteria` = `subkriteria`.`id_kriteria`
+LEFT JOIN `nilai_kategori` ON `nilai_kategori`.`id_nilai` = `subkriteria`.`id_nilai`
+WHERE `id_kriteria` = :id_kriteria:
+ORDER BY `subkriteria`.`id_subkriteria` ASC
+ LIMIT 10', [...], false)
+ 4 APPPATH\Models\SubkriteriaModel.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Backend\Modules\Recruitment.php(592): App\Models\SubkriteriaModel->get_datatables('1')
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->listSubkriteria()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+CRITICAL - 2024-08-08 16:26:11 --> [Caused by] mysqli_sql_exception: Column 'id_kriteria' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `subkriteria`
+LEFT JOIN `kriteria` ON `kriteria`.`id_kriteria` = `subkriteria`.`id_kriteria`
+LEFT JOIN `nilai_kategori` ON `nilai_kategori`.`id_nilai` = `subkriteria`.`id_nilai`
+WHERE `id_kriteria` = 1
+ORDER BY `subkriteria`.`id_subkriteria` ASC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `subkriteria`
+LEFT JOIN `kriteria` ON `kriteria`.`id_kriteria` = `subkriteria`.`id_kriteria`
+LEFT JOIN `nilai_kategori` ON `nilai_kategori`.`id_nilai` = `subkriteria`.`id_nilai`
+WHERE `id_kriteria` = 1
+ORDER BY `subkriteria`.`id_subkriteria` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `subkriteria`
+LEFT JOIN `kriteria` ON `kriteria`.`id_kriteria` = `subkriteria`.`id_kriteria`
+LEFT JOIN `nilai_kategori` ON `nilai_kategori`.`id_nilai` = `subkriteria`.`id_nilai`
+WHERE `id_kriteria` = 1
+ORDER BY `subkriteria`.`id_subkriteria` ASC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `subkriteria`
+LEFT JOIN `kriteria` ON `kriteria`.`id_kriteria` = `subkriteria`.`id_kriteria`
+LEFT JOIN `nilai_kategori` ON `nilai_kategori`.`id_nilai` = `subkriteria`.`id_nilai`
+WHERE `id_kriteria` = :id_kriteria:
+ORDER BY `subkriteria`.`id_subkriteria` ASC
+ LIMIT 10', [...], false)
+ 5 APPPATH\Models\SubkriteriaModel.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Backend\Modules\Recruitment.php(592): App\Models\SubkriteriaModel->get_datatables('1')
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->listSubkriteria()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-08 16:26:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:26:26 --> CSRF token verified.
+ERROR - 2024-08-08 16:26:26 --> mysqli_sql_exception: Column 'id_kriteria' in where clause is ambiguous in C:\xampp\htdocs\demo_spk_ahp\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\demo_spk_ahp\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\demo_spk_ahp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\demo_spk_ahp\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\demo_spk_ahp\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\demo_spk_ahp\app\Models\SubkriteriaModel.php(77): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\demo_spk_ahp\app\Controllers\Backend\Modules\Recruitment.php(592): App\Models\SubkriteriaModel->get_datatables('1')
+#6 C:\xampp\htdocs\demo_spk_ahp\system\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->listSubkriteria()
+#7 C:\xampp\htdocs\demo_spk_ahp\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+#8 C:\xampp\htdocs\demo_spk_ahp\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\demo_spk_ahp\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\demo_spk_ahp\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-08-08 16:26:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'id_kriteria' in where clause is ambiguous
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `subkriteria`
+LEFT JOIN `kriteria` ON `kriteria`.`id_kriteria` = `subkriteria`.`id_kriteria`
+LEFT JOIN `nilai_kategori` ON `nilai_kategori`.`id_nilai` = `subkriteria`.`id_nilai`
+WHERE `id_kriteria` = :id_kriteria:
+ORDER BY `subkriteria`.`id_subkriteria` ASC
+ LIMIT 10', [...], false)
+ 2 APPPATH\Models\SubkriteriaModel.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Backend\Modules\Recruitment.php(592): App\Models\SubkriteriaModel->get_datatables('1')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->listSubkriteria()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+CRITICAL - 2024-08-08 16:26:26 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'id_kriteria' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `subkriteria`
+LEFT JOIN `kriteria` ON `kriteria`.`id_kriteria` = `subkriteria`.`id_kriteria`
+LEFT JOIN `nilai_kategori` ON `nilai_kategori`.`id_nilai` = `subkriteria`.`id_nilai`
+WHERE `id_kriteria` = 1
+ORDER BY `subkriteria`.`id_subkriteria` ASC
+ LIMIT 10')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `subkriteria`
+LEFT JOIN `kriteria` ON `kriteria`.`id_kriteria` = `subkriteria`.`id_kriteria`
+LEFT JOIN `nilai_kategori` ON `nilai_kategori`.`id_nilai` = `subkriteria`.`id_nilai`
+WHERE `id_kriteria` = 1
+ORDER BY `subkriteria`.`id_subkriteria` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `subkriteria`
+LEFT JOIN `kriteria` ON `kriteria`.`id_kriteria` = `subkriteria`.`id_kriteria`
+LEFT JOIN `nilai_kategori` ON `nilai_kategori`.`id_nilai` = `subkriteria`.`id_nilai`
+WHERE `id_kriteria` = :id_kriteria:
+ORDER BY `subkriteria`.`id_subkriteria` ASC
+ LIMIT 10', [...], false)
+ 4 APPPATH\Models\SubkriteriaModel.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Backend\Modules\Recruitment.php(592): App\Models\SubkriteriaModel->get_datatables('1')
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->listSubkriteria()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+CRITICAL - 2024-08-08 16:26:26 --> [Caused by] mysqli_sql_exception: Column 'id_kriteria' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `subkriteria`
+LEFT JOIN `kriteria` ON `kriteria`.`id_kriteria` = `subkriteria`.`id_kriteria`
+LEFT JOIN `nilai_kategori` ON `nilai_kategori`.`id_nilai` = `subkriteria`.`id_nilai`
+WHERE `id_kriteria` = 1
+ORDER BY `subkriteria`.`id_subkriteria` ASC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `subkriteria`
+LEFT JOIN `kriteria` ON `kriteria`.`id_kriteria` = `subkriteria`.`id_kriteria`
+LEFT JOIN `nilai_kategori` ON `nilai_kategori`.`id_nilai` = `subkriteria`.`id_nilai`
+WHERE `id_kriteria` = 1
+ORDER BY `subkriteria`.`id_subkriteria` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `subkriteria`
+LEFT JOIN `kriteria` ON `kriteria`.`id_kriteria` = `subkriteria`.`id_kriteria`
+LEFT JOIN `nilai_kategori` ON `nilai_kategori`.`id_nilai` = `subkriteria`.`id_nilai`
+WHERE `id_kriteria` = 1
+ORDER BY `subkriteria`.`id_subkriteria` ASC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `subkriteria`
+LEFT JOIN `kriteria` ON `kriteria`.`id_kriteria` = `subkriteria`.`id_kriteria`
+LEFT JOIN `nilai_kategori` ON `nilai_kategori`.`id_nilai` = `subkriteria`.`id_nilai`
+WHERE `id_kriteria` = :id_kriteria:
+ORDER BY `subkriteria`.`id_subkriteria` ASC
+ LIMIT 10', [...], false)
+ 5 APPPATH\Models\SubkriteriaModel.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Backend\Modules\Recruitment.php(592): App\Models\SubkriteriaModel->get_datatables('1')
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->listSubkriteria()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-08 16:27:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:27:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:27:14 --> CSRF token verified.
+INFO - 2024-08-08 16:28:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:28:44 --> CSRF token verified.
+INFO - 2024-08-08 16:29:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:29:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:29:24 --> CSRF token verified.
+INFO - 2024-08-08 16:30:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:30:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:30:02 --> CSRF token verified.
+INFO - 2024-08-08 16:30:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:30:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:30:39 --> CSRF token verified.
+INFO - 2024-08-08 16:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:31:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:31:33 --> CSRF token verified.
+INFO - 2024-08-08 16:36:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:36:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:36:19 --> CSRF token verified.
+CRITICAL - 2024-08-08 16:36:19 --> ErrorException: Undefined variable $id_kriteria
+in APPPATH\Controllers\Backend\Modules\Recruitment.php on line 591.
+ 1 APPPATH\Controllers\Backend\Modules\Recruitment.php(591): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_kriteria', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Controllers\\Backend\\Modules\\Recruitment.php', 591)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->listSubkriteria()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-08 16:36:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:36:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:36:48 --> CSRF token verified.
+INFO - 2024-08-08 16:37:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:37:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:37:43 --> CSRF token verified.
+INFO - 2024-08-08 16:38:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:38:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:38:39 --> CSRF token verified.
+INFO - 2024-08-08 16:42:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:42:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:42:56 --> CSRF token verified.
+INFO - 2024-08-08 16:44:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:44:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:44:28 --> CSRF token verified.
+INFO - 2024-08-08 16:44:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:44:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:44:31 --> CSRF token verified.
+INFO - 2024-08-08 16:44:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:44:46 --> CSRF token verified.
+INFO - 2024-08-08 16:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:44:47 --> CSRF token verified.
+INFO - 2024-08-08 16:44:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:44:48 --> CSRF token verified.
+INFO - 2024-08-08 16:44:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:44:49 --> CSRF token verified.
+INFO - 2024-08-08 16:44:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:44:50 --> CSRF token verified.
+INFO - 2024-08-08 16:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:44:51 --> CSRF token verified.
+INFO - 2024-08-08 16:44:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:44:56 --> CSRF token verified.
+INFO - 2024-08-08 16:44:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:44:56 --> CSRF token verified.
+INFO - 2024-08-08 16:44:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:44:57 --> CSRF token verified.
+INFO - 2024-08-08 16:44:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 16:45:00 --> CSRF token verified.
+INFO - 2024-08-08 23:11:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:11:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:11:52 --> CSRF token verified.
+INFO - 2024-08-08 23:11:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:11:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:12:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:12:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:12:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:12:38 --> CSRF token verified.
+INFO - 2024-08-08 23:12:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:12:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:12:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:12:43 --> CSRF token verified.
+INFO - 2024-08-08 23:12:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:12:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:12:46 --> CSRF token verified.
+INFO - 2024-08-08 23:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:12:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:12:54 --> CSRF token verified.
+INFO - 2024-08-08 23:13:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:13:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:13:20 --> CSRF token verified.
+INFO - 2024-08-08 23:13:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:18:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:22:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:22:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:22:24 --> CSRF token verified.
+INFO - 2024-08-08 23:22:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:22:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:22:29 --> CSRF token verified.
+INFO - 2024-08-08 23:22:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:22:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:22:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:22:47 --> CSRF token verified.
+INFO - 2024-08-08 23:22:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:23:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:23:05 --> CSRF token verified.
+INFO - 2024-08-08 23:23:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:23:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:23:08 --> CSRF token verified.
+INFO - 2024-08-08 23:23:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:24:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:24:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:24:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:24:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:24:50 --> CSRF token verified.
+INFO - 2024-08-08 23:25:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:25:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:26:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:26:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:26:09 --> CSRF token verified.
+INFO - 2024-08-08 23:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:27:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:27:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:27:28 --> CSRF token verified.
+INFO - 2024-08-08 23:27:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:27:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:27:44 --> CSRF token verified.
+INFO - 2024-08-08 23:29:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:29:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:29:50 --> CSRF token verified.
+INFO - 2024-08-08 23:29:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:30:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:30:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:30:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:30:06 --> CSRF token verified.
+INFO - 2024-08-08 23:30:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:30:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:30:10 --> CSRF token verified.
+INFO - 2024-08-08 23:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:31:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:31:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:31:07 --> CSRF token verified.
+INFO - 2024-08-08 23:31:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:31:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:31:10 --> CSRF token verified.
+INFO - 2024-08-08 23:31:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:31:13 --> CSRF token verified.
+INFO - 2024-08-08 23:31:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:31:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:31:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:31:42 --> CSRF token verified.
+INFO - 2024-08-08 23:32:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:32:13 --> CSRF token verified.
+INFO - 2024-08-08 23:32:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:32:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:32:15 --> CSRF token verified.
+INFO - 2024-08-08 23:33:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:33:57 --> CSRF token verified.
+INFO - 2024-08-08 23:33:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:34:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:34:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:34:02 --> CSRF token verified.
+INFO - 2024-08-08 23:34:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:34:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:34:05 --> CSRF token verified.
+INFO - 2024-08-08 23:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:35:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:35:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:35:56 --> CSRF token verified.
+INFO - 2024-08-08 23:37:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:37:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:37:52 --> CSRF token verified.
+INFO - 2024-08-08 23:37:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:37:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 23:37:54 --> CSRF token verified.

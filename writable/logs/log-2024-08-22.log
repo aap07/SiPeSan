@@ -1,0 +1,303 @@
+INFO - 2024-08-22 14:55:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 14:55:38 --> CSRF token verified.
+INFO - 2024-08-22 14:55:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 14:55:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 14:55:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 14:55:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 14:55:44 --> CSRF token verified.
+INFO - 2024-08-22 14:56:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 14:56:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 14:56:14 --> CSRF token verified.
+INFO - 2024-08-22 14:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 14:57:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 14:57:15 --> CSRF token verified.
+INFO - 2024-08-22 14:57:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 14:58:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 14:58:01 --> CSRF token verified.
+INFO - 2024-08-22 14:58:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 14:58:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:01:12 --> CSRF token verified.
+INFO - 2024-08-22 15:01:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:01:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:01:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:01:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:01:18 --> CSRF token verified.
+INFO - 2024-08-22 15:01:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:01:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:01:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:01:34 --> CSRF token verified.
+INFO - 2024-08-22 15:01:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:01:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:01:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:01:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:01:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-22 15:01:42 --> ErrorException: Undefined variable $sub_title
+in APPPATH\Views\backend\layout\auth_header.php on line 7.
+ 1 APPPATH\Views\backend\layout\auth_header.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_title', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\layout\\auth_header.php', 7)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\layout\\auth_header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('backend/layout/auth_header', null, true)
+ 5 APPPATH\Views\backend\template\auth_template.php(1): CodeIgniter\View\View->include('backend/layout/auth_header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\template\\auth_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('backend/template/auth_template', [], true)
+ 9 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/auth/blocked', [], true)
+10 APPPATH\Controllers\Backend\Auth\Auth.php(90): view('backend/view/auth/blocked', [...])
+11 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Auth\Auth->blocked()
+12 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Auth\Auth))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-22 15:01:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:01:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:02:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:02:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:02:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:02:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:02:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-22 15:02:09 --> ErrorException: Undefined variable $sub_title
+in APPPATH\Views\backend\layout\auth_header.php on line 7.
+ 1 APPPATH\Views\backend\layout\auth_header.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_title', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\layout\\auth_header.php', 7)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\layout\\auth_header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('backend/layout/auth_header', null, true)
+ 5 APPPATH\Views\backend\template\auth_template.php(1): CodeIgniter\View\View->include('backend/layout/auth_header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\template\\auth_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('backend/template/auth_template', [], true)
+ 9 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/auth/blocked', [], true)
+10 APPPATH\Controllers\Backend\Auth\Auth.php(90): view('backend/view/auth/blocked', [...])
+11 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Auth\Auth->blocked()
+12 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Auth\Auth))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-22 15:03:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:03:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:03:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-22 15:03:18 --> ErrorException: Undefined variable $sub_title
+in APPPATH\Views\backend\layout\auth_header.php on line 7.
+ 1 APPPATH\Views\backend\layout\auth_header.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_title', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\layout\\auth_header.php', 7)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\layout\\auth_header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('backend/layout/auth_header', null, true)
+ 5 APPPATH\Views\backend\template\auth_template.php(1): CodeIgniter\View\View->include('backend/layout/auth_header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\template\\auth_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('backend/template/auth_template', [], true)
+ 9 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/auth/blocked', [], true)
+10 APPPATH\Controllers\Backend\Auth\Auth.php(90): view('backend/view/auth/blocked', [...])
+11 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Auth\Auth->blocked()
+12 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Auth\Auth))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-22 15:03:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:03:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:03:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-22 15:03:22 --> ErrorException: Undefined variable $sub_title
+in APPPATH\Views\backend\layout\auth_header.php on line 7.
+ 1 APPPATH\Views\backend\layout\auth_header.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_title', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\layout\\auth_header.php', 7)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\layout\\auth_header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('backend/layout/auth_header', null, true)
+ 5 APPPATH\Views\backend\template\auth_template.php(1): CodeIgniter\View\View->include('backend/layout/auth_header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\template\\auth_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('backend/template/auth_template', [], true)
+ 9 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/auth/blocked', [], true)
+10 APPPATH\Controllers\Backend\Auth\Auth.php(90): view('backend/view/auth/blocked', [...])
+11 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Auth\Auth->blocked()
+12 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Auth\Auth))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-22 15:03:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:03:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-22 15:03:48 --> ErrorException: Undefined variable $sub_title
+in APPPATH\Views\backend\layout\auth_header.php on line 7.
+ 1 APPPATH\Views\backend\layout\auth_header.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_title', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\layout\\auth_header.php', 7)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\layout\\auth_header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('backend/layout/auth_header', null, true)
+ 5 APPPATH\Views\backend\template\auth_template.php(1): CodeIgniter\View\View->include('backend/layout/auth_header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\template\\auth_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('backend/template/auth_template', [], true)
+ 9 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/auth/blocked', [], true)
+10 APPPATH\Controllers\Backend\Auth\Auth.php(90): view('backend/view/auth/blocked', [...])
+11 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Auth\Auth->blocked()
+12 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Auth\Auth))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-22 15:06:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:06:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:06:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-22 15:06:26 --> ErrorException: Undefined variable $sub_title
+in APPPATH\Views\backend\layout\auth_header.php on line 7.
+ 1 APPPATH\Views\backend\layout\auth_header.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_title', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\layout\\auth_header.php', 7)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\layout\\auth_header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('backend/layout/auth_header', null, true)
+ 5 APPPATH\Views\backend\template\auth_template.php(1): CodeIgniter\View\View->include('backend/layout/auth_header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\template\\auth_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('backend/template/auth_template', [], true)
+ 9 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/auth/blocked', [], true)
+10 APPPATH\Controllers\Backend\Auth\Auth.php(90): view('backend/view/auth/blocked', [...])
+11 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Auth\Auth->blocked()
+12 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Auth\Auth))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-22 15:06:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-22 15:06:37 --> ErrorException: Undefined variable $sub_title
+in APPPATH\Views\backend\layout\auth_header.php on line 7.
+ 1 APPPATH\Views\backend\layout\auth_header.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_title', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\layout\\auth_header.php', 7)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\layout\\auth_header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('backend/layout/auth_header', null, true)
+ 5 APPPATH\Views\backend\template\auth_template.php(1): CodeIgniter\View\View->include('backend/layout/auth_header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\template\\auth_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('backend/template/auth_template', [], true)
+ 9 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/auth/blocked', [], true)
+10 APPPATH\Controllers\Backend\Auth\Auth.php(90): view('backend/view/auth/blocked', [...])
+11 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Auth\Auth->blocked()
+12 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Auth\Auth))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-22 15:06:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:07:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:07:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-22 15:07:00 --> ErrorException: Undefined variable $sub_title
+in APPPATH\Views\backend\layout\auth_header.php on line 7.
+ 1 APPPATH\Views\backend\layout\auth_header.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_title', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\layout\\auth_header.php', 7)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\layout\\auth_header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('backend/layout/auth_header', null, true)
+ 5 APPPATH\Views\backend\template\auth_template.php(1): CodeIgniter\View\View->include('backend/layout/auth_header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\template\\auth_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('backend/template/auth_template', [], true)
+ 9 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/auth/blocked', [], true)
+10 APPPATH\Controllers\Backend\Auth\Auth.php(90): view('backend/view/auth/blocked', [...])
+11 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Auth\Auth->blocked()
+12 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Auth\Auth))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-22 15:07:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:07:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:07:50 --> CSRF token verified.
+INFO - 2024-08-22 15:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:08:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:08:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:08:10 --> CSRF token verified.
+INFO - 2024-08-22 15:08:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:08:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:08:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:08:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:08:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-22 15:08:14 --> ErrorException: Undefined variable $sub_title
+in APPPATH\Views\backend\layout\auth_header.php on line 7.
+ 1 APPPATH\Views\backend\layout\auth_header.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_title', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\layout\\auth_header.php', 7)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\layout\\auth_header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('backend/layout/auth_header', null, true)
+ 5 APPPATH\Views\backend\template\auth_template.php(1): CodeIgniter\View\View->include('backend/layout/auth_header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\template\\auth_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('backend/template/auth_template', [], true)
+ 9 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/auth/blocked', [], true)
+10 APPPATH\Controllers\Backend\Auth\Auth.php(90): view('backend/view/auth/blocked', [...])
+11 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Auth\Auth->blocked()
+12 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Auth\Auth))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-22 15:08:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:08:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:09:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:09:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:09:48 --> CSRF token verified.
+INFO - 2024-08-22 15:09:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:09:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:10:13 --> CSRF token verified.
+INFO - 2024-08-22 15:10:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:10:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:10:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:10:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:10:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:10:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-22 15:10:19 --> ErrorException: Undefined variable $sub_title
+in APPPATH\Views\backend\layout\auth_header.php on line 7.
+ 1 APPPATH\Views\backend\layout\auth_header.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_title', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\layout\\auth_header.php', 7)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\layout\\auth_header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('backend/layout/auth_header', null, true)
+ 5 APPPATH\Views\backend\template\auth_template.php(1): CodeIgniter\View\View->include('backend/layout/auth_header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\template\\auth_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('backend/template/auth_template', [], true)
+ 9 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/auth/blocked', [], true)
+10 APPPATH\Controllers\Backend\Auth\Auth.php(90): view('backend/view/auth/blocked', [...])
+11 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Auth\Auth->blocked()
+12 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Auth\Auth))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-22 15:10:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:10:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-22 15:10:21 --> ErrorException: Undefined variable $sub_title
+in APPPATH\Views\backend\layout\auth_header.php on line 7.
+ 1 APPPATH\Views\backend\layout\auth_header.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_title', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\layout\\auth_header.php', 7)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\layout\\auth_header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('backend/layout/auth_header', null, true)
+ 5 APPPATH\Views\backend\template\auth_template.php(1): CodeIgniter\View\View->include('backend/layout/auth_header')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\template\\auth_template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('backend/template/auth_template', [], true)
+ 9 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/auth/blocked', [], true)
+10 APPPATH\Controllers\Backend\Auth\Auth.php(90): view('backend/view/auth/blocked', [...])
+11 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Auth\Auth->blocked()
+12 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Auth\Auth))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-22 15:11:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:11:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:11:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:11:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:11:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:11:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:11:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:11:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:11:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:11:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:11:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:11:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:12:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:12:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:12:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:12:56 --> CSRF token verified.
+INFO - 2024-08-22 15:12:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:12:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:13:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:13:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:13:10 --> CSRF token verified.
+INFO - 2024-08-22 15:13:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:14:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:14:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:14:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:14:31 --> CSRF token verified.
+INFO - 2024-08-22 15:15:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:15:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 15:15:57 --> CSRF token verified.

@@ -1,0 +1,424 @@
+CRITICAL - 2024-06-15 13:28:44 --> CodeIgniter\Exceptions\ConfigException: Config\App::$baseURL "BASE/" is not a valid URL.
+in SYSTEMPATH\HTTP\SiteURI.php on line 199.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(145): CodeIgniter\HTTP\SiteURI->normalizeBaseURL(Object(Config\App))
+ 2 SYSTEMPATH\HTTP\SiteURI.php(100): CodeIgniter\HTTP\SiteURI->determineBaseURL(Object(Config\App), null, null)
+ 3 SYSTEMPATH\HTTP\SiteURIFactory.php(224): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), '/', null)
+ 4 SYSTEMPATH\HTTP\SiteURIFactory.php(45): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('/')
+ 5 SYSTEMPATH\Config\Services.php(805): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(null, false)
+ 7 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', [...])
+ 8 SYSTEMPATH\Config\Services.php(798): CodeIgniter\Config\BaseService::getSharedInstance('uri', null)
+ 9 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+10 SYSTEMPATH\Config\Services.php(566): CodeIgniter\Config\BaseService::__callStatic('uri', [])
+11 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+12 SYSTEMPATH\Config\Services.php(524): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', [...])
+13 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::request(Object(Config\App), false)
+14 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', [...])
+15 SYSTEMPATH\Config\Services.php(559): CodeIgniter\Config\BaseService::getSharedInstance('request', Object(Config\App))
+16 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App))
+17 SYSTEMPATH\Config\Services.php(539): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', [...])
+18 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest(Object(Config\App))
+19 SYSTEMPATH\CodeIgniter.php(656): CodeIgniter\Config\BaseService::__callStatic('createRequest', [...])
+20 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->getRequestObject()
+21 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+22 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\framework-4.4.8\\public\\index.php')
+CRITICAL - 2024-06-15 13:28:44 --> ErrorException: Uncaught CodeIgniter\Exceptions\ConfigException: Config\App::$baseURL "BASE/" is not a valid URL. in C:\xampp\htdocs\framework-4.4.8\system\HTTP\SiteURI.php:199
+Stack trace:
+#0 C:\xampp\htdocs\framework-4.4.8\system\HTTP\SiteURI.php(145): CodeIgniter\HTTP\SiteURI->normalizeBaseURL(Object(Config\App))
+#1 C:\xampp\htdocs\framework-4.4.8\system\HTTP\SiteURI.php(100): CodeIgniter\HTTP\SiteURI->determineBaseURL(Object(Config\App), NULL, NULL)
+#2 C:\xampp\htdocs\framework-4.4.8\system\HTTP\SiteURIFactory.php(224): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), '/', NULL)
+#3 C:\xampp\htdocs\framework-4.4.8\system\HTTP\SiteURIFactory.php(45): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('/')
+#4 C:\xampp\htdocs\framework-4.4.8\system\Config\Services.php(805): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#5 C:\xampp\htdocs\framework-4.4.8\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(NULL, false)
+#6 C:\xampp\htdocs\framework-4.4.8\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#7 C:\xampp\htdocs\framework-4.4.8\system\Config\Services.php(798): CodeIgniter\Config\BaseService::getSharedInstance('uri', NULL)
+#8 C:\xampp\htdocs\framework-4.4.8\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#9 C:\xampp\htdocs\framework-4.4.8\system\Config\Services.php(566): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#10 C:\xampp\htdocs\framework-4.4.8\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#11 C:\xampp\htdocs\framework-4.4.8\system\Config\Services.php(524): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#12 C:\xampp\htdocs\framework-4.4.8\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(NULL, false)
+#13 C:\xampp\htdocs\framework-4.4.8\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#14 C:\xampp\htdocs\framework-4.4.8\system\Config\Services.php(520): CodeIgniter\Config\BaseService::getSharedInstance('request', NULL)
+#15 C:\xampp\htdocs\framework-4.4.8\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request()
+#16 C:\xampp\htdocs\framework-4.4.8\system\Debug\Exceptions.php(150): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#17 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\ConfigException))
+#18 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\ConfigException
+Config\App::$baseURL "BASE/" is not a valid URL.
+#0 C:\xampp\htdocs\framework-4.4.8\system\HTTP\SiteURI.php(145): CodeIgniter\HTTP\SiteURI->normalizeBaseURL(Object(Config\App))
+#1 C:\xampp\htdocs\framework-4.4.8\system\HTTP\SiteURI.php(100): CodeIgniter\HTTP\SiteURI->determineBaseURL(Object(Config\App), NULL, NULL)
+#2 C:\xampp\htdocs\framework-4.4.8\system\HTTP\SiteURIFactory.php(224): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), '/', NULL)
+#3 C:\xampp\htdocs\framework-4.4.8\system\HTTP\SiteURIFactory.php(45): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('/')
+#4 C:\xampp\htdocs\framework-4.4.8\system\Config\Services.php(805): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#5 C:\xampp\htdocs\framework-4.4.8\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(NULL, false)
+#6 C:\xampp\htdocs\framework-4.4.8\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#7 C:\xampp\htdocs\framework-4.4.8\system\Config\Services.php(798): CodeIgniter\Config\BaseService::getSharedInstance('uri', NULL)
+#8 C:\xampp\htdocs\framework-4.4.8\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#9 C:\xampp\htdocs\framework-4.4.8\system\Config\Services.php(566): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#10 C:\xampp\htdocs\framework-4.4.8\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#11 C:\xampp\htdocs\framework-4.4.8\system\Config\Services.php(524): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#12 C:\xampp\htdocs\framework-4.4.8\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(Object(Config\App), false)
+#13 C:\xampp\htdocs\framework-4.4.8\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#14 C:\xampp\htdocs\framework-4.4.8\system\Config\Services.php(559): CodeIgniter\Config\BaseService::getSharedInstance('request', Object(Config\App))
+#15 C:\xampp\htdocs\framework-4.4.8\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App))
+#16 C:\xampp\htdocs\framework-4.4.8\system\Config\Services.php(539): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#17 C:\xampp\htdocs\framework-4.4.8\system\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest(Object(Config\App))
+#18 C:\xampp\htdocs\framework-4.4.8\system\CodeIgniter.php(656): CodeIgniter\Config\BaseService::__callStatic('createRequest', Array)
+#19 C:\xampp\htdocs\framework-4.4.8\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->getRequestObject()
+#20 C:\xampp\htdocs\framework-4.4.8\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#21 C:\xampp\htdocs\framework-4.4.8\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#22 {main}
+in SYSTEMPATH\HTTP\SiteURI.php on line 199.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-15 13:29:32 --> CodeIgniter\Exceptions\ConfigException: Config\App::$baseURL "BASE;/" is not a valid URL.
+in SYSTEMPATH\HTTP\SiteURI.php on line 199.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(145): CodeIgniter\HTTP\SiteURI->normalizeBaseURL(Object(Config\App))
+ 2 SYSTEMPATH\HTTP\SiteURI.php(100): CodeIgniter\HTTP\SiteURI->determineBaseURL(Object(Config\App), null, null)
+ 3 SYSTEMPATH\HTTP\SiteURIFactory.php(224): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), '/', null)
+ 4 SYSTEMPATH\HTTP\SiteURIFactory.php(45): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('/')
+ 5 SYSTEMPATH\Config\Services.php(805): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(null, false)
+ 7 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', [...])
+ 8 SYSTEMPATH\Config\Services.php(798): CodeIgniter\Config\BaseService::getSharedInstance('uri', null)
+ 9 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+10 SYSTEMPATH\Config\Services.php(566): CodeIgniter\Config\BaseService::__callStatic('uri', [])
+11 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+12 SYSTEMPATH\Config\Services.php(524): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', [...])
+13 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::request(Object(Config\App), false)
+14 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', [...])
+15 SYSTEMPATH\Config\Services.php(559): CodeIgniter\Config\BaseService::getSharedInstance('request', Object(Config\App))
+16 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App))
+17 SYSTEMPATH\Config\Services.php(539): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', [...])
+18 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest(Object(Config\App))
+19 SYSTEMPATH\CodeIgniter.php(656): CodeIgniter\Config\BaseService::__callStatic('createRequest', [...])
+20 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->getRequestObject()
+21 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+22 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\framework-4.4.8\\public\\index.php')
+CRITICAL - 2024-06-15 13:29:32 --> ErrorException: Uncaught CodeIgniter\Exceptions\ConfigException: Config\App::$baseURL "BASE;/" is not a valid URL. in C:\xampp\htdocs\framework-4.4.8\system\HTTP\SiteURI.php:199
+Stack trace:
+#0 C:\xampp\htdocs\framework-4.4.8\system\HTTP\SiteURI.php(145): CodeIgniter\HTTP\SiteURI->normalizeBaseURL(Object(Config\App))
+#1 C:\xampp\htdocs\framework-4.4.8\system\HTTP\SiteURI.php(100): CodeIgniter\HTTP\SiteURI->determineBaseURL(Object(Config\App), NULL, NULL)
+#2 C:\xampp\htdocs\framework-4.4.8\system\HTTP\SiteURIFactory.php(224): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), '/', NULL)
+#3 C:\xampp\htdocs\framework-4.4.8\system\HTTP\SiteURIFactory.php(45): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('/')
+#4 C:\xampp\htdocs\framework-4.4.8\system\Config\Services.php(805): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#5 C:\xampp\htdocs\framework-4.4.8\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(NULL, false)
+#6 C:\xampp\htdocs\framework-4.4.8\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#7 C:\xampp\htdocs\framework-4.4.8\system\Config\Services.php(798): CodeIgniter\Config\BaseService::getSharedInstance('uri', NULL)
+#8 C:\xampp\htdocs\framework-4.4.8\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#9 C:\xampp\htdocs\framework-4.4.8\system\Config\Services.php(566): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#10 C:\xampp\htdocs\framework-4.4.8\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#11 C:\xampp\htdocs\framework-4.4.8\system\Config\Services.php(524): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#12 C:\xampp\htdocs\framework-4.4.8\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(NULL, false)
+#13 C:\xampp\htdocs\framework-4.4.8\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#14 C:\xampp\htdocs\framework-4.4.8\system\Config\Services.php(520): CodeIgniter\Config\BaseService::getSharedInstance('request', NULL)
+#15 C:\xampp\htdocs\framework-4.4.8\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request()
+#16 C:\xampp\htdocs\framework-4.4.8\system\Debug\Exceptions.php(150): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#17 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\ConfigException))
+#18 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\ConfigException
+Config\App::$baseURL "BASE;/" is not a valid URL.
+#0 C:\xampp\htdocs\framework-4.4.8\system\HTTP\SiteURI.php(145): CodeIgniter\HTTP\SiteURI->normalizeBaseURL(Object(Config\App))
+#1 C:\xampp\htdocs\framework-4.4.8\system\HTTP\SiteURI.php(100): CodeIgniter\HTTP\SiteURI->determineBaseURL(Object(Config\App), NULL, NULL)
+#2 C:\xampp\htdocs\framework-4.4.8\system\HTTP\SiteURIFactory.php(224): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), '/', NULL)
+#3 C:\xampp\htdocs\framework-4.4.8\system\HTTP\SiteURIFactory.php(45): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('/')
+#4 C:\xampp\htdocs\framework-4.4.8\system\Config\Services.php(805): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#5 C:\xampp\htdocs\framework-4.4.8\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(NULL, false)
+#6 C:\xampp\htdocs\framework-4.4.8\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#7 C:\xampp\htdocs\framework-4.4.8\system\Config\Services.php(798): CodeIgniter\Config\BaseService::getSharedInstance('uri', NULL)
+#8 C:\xampp\htdocs\framework-4.4.8\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#9 C:\xampp\htdocs\framework-4.4.8\system\Config\Services.php(566): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#10 C:\xampp\htdocs\framework-4.4.8\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#11 C:\xampp\htdocs\framework-4.4.8\system\Config\Services.php(524): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#12 C:\xampp\htdocs\framework-4.4.8\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(Object(Config\App), false)
+#13 C:\xampp\htdocs\framework-4.4.8\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#14 C:\xampp\htdocs\framework-4.4.8\system\Config\Services.php(559): CodeIgniter\Config\BaseService::getSharedInstance('request', Object(Config\App))
+#15 C:\xampp\htdocs\framework-4.4.8\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App))
+#16 C:\xampp\htdocs\framework-4.4.8\system\Config\Services.php(539): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#17 C:\xampp\htdocs\framework-4.4.8\system\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest(Object(Config\App))
+#18 C:\xampp\htdocs\framework-4.4.8\system\CodeIgniter.php(656): CodeIgniter\Config\BaseService::__callStatic('createRequest', Array)
+#19 C:\xampp\htdocs\framework-4.4.8\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->getRequestObject()
+#20 C:\xampp\htdocs\framework-4.4.8\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#21 C:\xampp\htdocs\framework-4.4.8\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#22 {main}
+in SYSTEMPATH\HTTP\SiteURI.php on line 199.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-15 15:29:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 15:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-15 15:32:28 --> CodeIgniter\Router\Exceptions\RouterException: The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Frontend/Home::index"
+in SYSTEMPATH\Router\Router.php on line 495.
+ 1 SYSTEMPATH\Router\Router.php(495): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Frontend/Home::index')
+ 2 SYSTEMPATH\Router\Router.php(202): CodeIgniter\Router\Router->checkRoutes('/')
+ 3 SYSTEMPATH\CodeIgniter.php(825): CodeIgniter\Router\Router->handle('/')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\framework-4.4.8\\public\\index.php')
+INFO - 2024-06-15 15:32:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 15:34:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 15:34:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 15:36:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 15:36:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 15:36:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 15:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 15:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 15:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-15 15:37:28 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `access`.`id_menu` ASC' at line 5 in C:\xampp\htdocs\framework-4.4.8\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\framework-4.4.8\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `menu`.*...', 0)
+#1 C:\xampp\htdocs\framework-4.4.8\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `menu`.*...')
+#2 C:\xampp\htdocs\framework-4.4.8\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `menu`.*...')
+#3 C:\xampp\htdocs\framework-4.4.8\app\Views\backend\layout\sidebar.php(34): CodeIgniter\Database\BaseConnection->query('SELECT `menu`.*...')
+#4 C:\xampp\htdocs\framework-4.4.8\system\View\View.php(228): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\framework-4.4.8\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp\htdocs\framework-4.4.8\system\View\View.php(469): CodeIgniter\View\View->render('backend/layout/...', NULL, true)
+#7 C:\xampp\htdocs\framework-4.4.8\app\Views\backend\template\template.php(3): CodeIgniter\View\View->include('backend/layout/...')
+#8 C:\xampp\htdocs\framework-4.4.8\system\View\View.php(228): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\framework-4.4.8\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#10 C:\xampp\htdocs\framework-4.4.8\system\View\View.php(244): CodeIgniter\View\View->render('backend/templat...', Array, true)
+#11 C:\xampp\htdocs\framework-4.4.8\system\Common.php(1178): CodeIgniter\View\View->render('backend/view/da...', Array, true)
+#12 C:\xampp\htdocs\framework-4.4.8\app\Controllers\Backend\Modules\Dashboard.php(25): view('backend/view/da...', Array)
+#13 C:\xampp\htdocs\framework-4.4.8\system\CodeIgniter.php(943): App\Controllers\Backend\Modules\Dashboard->index()
+#14 C:\xampp\htdocs\framework-4.4.8\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Dashboard))
+#15 C:\xampp\htdocs\framework-4.4.8\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\framework-4.4.8\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#17 C:\xampp\htdocs\framework-4.4.8\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#18 {main}
+CRITICAL - 2024-06-15 15:37:28 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `access`.`id_menu` ASC' at line 5
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Views\backend\layout\sidebar.php(34): CodeIgniter\Database\BaseConnection->query('SELECT `menu`.*
+                                    FROM `menu` JOIN `access` 
+                                    ON `menu`.`id_menu` = `access`.`id_menu`
+                                    WHERE `access`.`id_role` = 
+                                    ORDER BY `access`.`id_menu` ASC')
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\framework-4.4.8\\app\\Views\\backend\\layout\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('backend/layout/sidebar', null, true)
+ 5 APPPATH\Views\backend\template\template.php(3): CodeIgniter\View\View->include('backend/layout/sidebar')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\framework-4.4.8\\app\\Views\\backend\\template\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('backend/template/template', [], true)
+ 9 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/dashboard/index', [], true)
+10 APPPATH\Controllers\Backend\Modules\Dashboard.php(25): view('backend/view/dashboard/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Dashboard->index()
+12 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Dashboard))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\framework-4.4.8\\public\\index.php')
+CRITICAL - 2024-06-15 15:37:28 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `access`.`id_menu` ASC' at line 5
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `menu`.*
+                                    FROM `menu` JOIN `access` 
+                                    ON `menu`.`id_menu` = `access`.`id_menu`
+                                    WHERE `access`.`id_role` = 
+                                    ORDER BY `access`.`id_menu` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `menu`.*
+                                    FROM `menu` JOIN `access` 
+                                    ON `menu`.`id_menu` = `access`.`id_menu`
+                                    WHERE `access`.`id_role` = 
+                                    ORDER BY `access`.`id_menu` ASC')
+ 3 APPPATH\Views\backend\layout\sidebar.php(34): CodeIgniter\Database\BaseConnection->query('SELECT `menu`.*
+                                    FROM `menu` JOIN `access` 
+                                    ON `menu`.`id_menu` = `access`.`id_menu`
+                                    WHERE `access`.`id_role` = 
+                                    ORDER BY `access`.`id_menu` ASC')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\framework-4.4.8\\app\\Views\\backend\\layout\\sidebar.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('backend/layout/sidebar', null, true)
+ 7 APPPATH\Views\backend\template\template.php(3): CodeIgniter\View\View->include('backend/layout/sidebar')
+ 8 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\framework-4.4.8\\app\\Views\\backend\\template\\template.php')
+ 9 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('backend/template/template', [], true)
+11 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/dashboard/index', [], true)
+12 APPPATH\Controllers\Backend\Modules\Dashboard.php(25): view('backend/view/dashboard/index', [...])
+13 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Dashboard->index()
+14 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Dashboard))
+15 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+17 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\framework-4.4.8\\public\\index.php')
+CRITICAL - 2024-06-15 15:37:28 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `access`.`id_menu` ASC' at line 5
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `menu`.*
+                                    FROM `menu` JOIN `access` 
+                                    ON `menu`.`id_menu` = `access`.`id_menu`
+                                    WHERE `access`.`id_role` = 
+                                    ORDER BY `access`.`id_menu` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `menu`.*
+                                    FROM `menu` JOIN `access` 
+                                    ON `menu`.`id_menu` = `access`.`id_menu`
+                                    WHERE `access`.`id_role` = 
+                                    ORDER BY `access`.`id_menu` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `menu`.*
+                                    FROM `menu` JOIN `access` 
+                                    ON `menu`.`id_menu` = `access`.`id_menu`
+                                    WHERE `access`.`id_role` = 
+                                    ORDER BY `access`.`id_menu` ASC')
+ 4 APPPATH\Views\backend\layout\sidebar.php(34): CodeIgniter\Database\BaseConnection->query('SELECT `menu`.*
+                                    FROM `menu` JOIN `access` 
+                                    ON `menu`.`id_menu` = `access`.`id_menu`
+                                    WHERE `access`.`id_role` = 
+                                    ORDER BY `access`.`id_menu` ASC')
+ 5 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\framework-4.4.8\\app\\Views\\backend\\layout\\sidebar.php')
+ 6 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('backend/layout/sidebar', null, true)
+ 8 APPPATH\Views\backend\template\template.php(3): CodeIgniter\View\View->include('backend/layout/sidebar')
+ 9 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\framework-4.4.8\\app\\Views\\backend\\template\\template.php')
+10 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('backend/template/template', [], true)
+12 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/dashboard/index', [], true)
+13 APPPATH\Controllers\Backend\Modules\Dashboard.php(25): view('backend/view/dashboard/index', [...])
+14 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Dashboard->index()
+15 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Dashboard))
+16 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+18 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\framework-4.4.8\\public\\index.php')
+INFO - 2024-06-15 15:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 15:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-15 15:37:35 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `access`.`id_menu` ASC' at line 5 in C:\xampp\htdocs\framework-4.4.8\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\framework-4.4.8\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `menu`.*...', 0)
+#1 C:\xampp\htdocs\framework-4.4.8\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `menu`.*...')
+#2 C:\xampp\htdocs\framework-4.4.8\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `menu`.*...')
+#3 C:\xampp\htdocs\framework-4.4.8\app\Views\backend\layout\sidebar.php(34): CodeIgniter\Database\BaseConnection->query('SELECT `menu`.*...')
+#4 C:\xampp\htdocs\framework-4.4.8\system\View\View.php(228): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\framework-4.4.8\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp\htdocs\framework-4.4.8\system\View\View.php(469): CodeIgniter\View\View->render('backend/layout/...', NULL, true)
+#7 C:\xampp\htdocs\framework-4.4.8\app\Views\backend\template\template.php(3): CodeIgniter\View\View->include('backend/layout/...')
+#8 C:\xampp\htdocs\framework-4.4.8\system\View\View.php(228): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\framework-4.4.8\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#10 C:\xampp\htdocs\framework-4.4.8\system\View\View.php(244): CodeIgniter\View\View->render('backend/templat...', Array, true)
+#11 C:\xampp\htdocs\framework-4.4.8\system\Common.php(1178): CodeIgniter\View\View->render('backend/view/da...', Array, true)
+#12 C:\xampp\htdocs\framework-4.4.8\app\Controllers\Backend\Modules\Dashboard.php(25): view('backend/view/da...', Array)
+#13 C:\xampp\htdocs\framework-4.4.8\system\CodeIgniter.php(943): App\Controllers\Backend\Modules\Dashboard->index()
+#14 C:\xampp\htdocs\framework-4.4.8\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Dashboard))
+#15 C:\xampp\htdocs\framework-4.4.8\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\framework-4.4.8\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#17 C:\xampp\htdocs\framework-4.4.8\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#18 {main}
+CRITICAL - 2024-06-15 15:37:35 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `access`.`id_menu` ASC' at line 5
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Views\backend\layout\sidebar.php(34): CodeIgniter\Database\BaseConnection->query('SELECT `menu`.*
+                                    FROM `menu` JOIN `access` 
+                                    ON `menu`.`id_menu` = `access`.`id_menu`
+                                    WHERE `access`.`id_role` = 
+                                    ORDER BY `access`.`id_menu` ASC')
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\framework-4.4.8\\app\\Views\\backend\\layout\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('backend/layout/sidebar', null, true)
+ 5 APPPATH\Views\backend\template\template.php(3): CodeIgniter\View\View->include('backend/layout/sidebar')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\framework-4.4.8\\app\\Views\\backend\\template\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('backend/template/template', [], true)
+ 9 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/dashboard/index', [], true)
+10 APPPATH\Controllers\Backend\Modules\Dashboard.php(25): view('backend/view/dashboard/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Dashboard->index()
+12 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Dashboard))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\framework-4.4.8\\public\\index.php')
+CRITICAL - 2024-06-15 15:37:35 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `access`.`id_menu` ASC' at line 5
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `menu`.*
+                                    FROM `menu` JOIN `access` 
+                                    ON `menu`.`id_menu` = `access`.`id_menu`
+                                    WHERE `access`.`id_role` = 
+                                    ORDER BY `access`.`id_menu` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `menu`.*
+                                    FROM `menu` JOIN `access` 
+                                    ON `menu`.`id_menu` = `access`.`id_menu`
+                                    WHERE `access`.`id_role` = 
+                                    ORDER BY `access`.`id_menu` ASC')
+ 3 APPPATH\Views\backend\layout\sidebar.php(34): CodeIgniter\Database\BaseConnection->query('SELECT `menu`.*
+                                    FROM `menu` JOIN `access` 
+                                    ON `menu`.`id_menu` = `access`.`id_menu`
+                                    WHERE `access`.`id_role` = 
+                                    ORDER BY `access`.`id_menu` ASC')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\framework-4.4.8\\app\\Views\\backend\\layout\\sidebar.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('backend/layout/sidebar', null, true)
+ 7 APPPATH\Views\backend\template\template.php(3): CodeIgniter\View\View->include('backend/layout/sidebar')
+ 8 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\framework-4.4.8\\app\\Views\\backend\\template\\template.php')
+ 9 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('backend/template/template', [], true)
+11 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/dashboard/index', [], true)
+12 APPPATH\Controllers\Backend\Modules\Dashboard.php(25): view('backend/view/dashboard/index', [...])
+13 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Dashboard->index()
+14 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Dashboard))
+15 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+17 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\framework-4.4.8\\public\\index.php')
+CRITICAL - 2024-06-15 15:37:35 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `access`.`id_menu` ASC' at line 5
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `menu`.*
+                                    FROM `menu` JOIN `access` 
+                                    ON `menu`.`id_menu` = `access`.`id_menu`
+                                    WHERE `access`.`id_role` = 
+                                    ORDER BY `access`.`id_menu` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `menu`.*
+                                    FROM `menu` JOIN `access` 
+                                    ON `menu`.`id_menu` = `access`.`id_menu`
+                                    WHERE `access`.`id_role` = 
+                                    ORDER BY `access`.`id_menu` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `menu`.*
+                                    FROM `menu` JOIN `access` 
+                                    ON `menu`.`id_menu` = `access`.`id_menu`
+                                    WHERE `access`.`id_role` = 
+                                    ORDER BY `access`.`id_menu` ASC')
+ 4 APPPATH\Views\backend\layout\sidebar.php(34): CodeIgniter\Database\BaseConnection->query('SELECT `menu`.*
+                                    FROM `menu` JOIN `access` 
+                                    ON `menu`.`id_menu` = `access`.`id_menu`
+                                    WHERE `access`.`id_role` = 
+                                    ORDER BY `access`.`id_menu` ASC')
+ 5 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\framework-4.4.8\\app\\Views\\backend\\layout\\sidebar.php')
+ 6 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('backend/layout/sidebar', null, true)
+ 8 APPPATH\Views\backend\template\template.php(3): CodeIgniter\View\View->include('backend/layout/sidebar')
+ 9 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\framework-4.4.8\\app\\Views\\backend\\template\\template.php')
+10 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('backend/template/template', [], true)
+12 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/dashboard/index', [], true)
+13 APPPATH\Controllers\Backend\Modules\Dashboard.php(25): view('backend/view/dashboard/index', [...])
+14 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Dashboard->index()
+15 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Dashboard))
+16 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+18 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\framework-4.4.8\\public\\index.php')
+INFO - 2024-06-15 15:37:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 15:38:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 15:38:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 15:38:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 15:40:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 15:40:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 15:40:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 15:40:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 15:40:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 15:40:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 15:40:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 15:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 15:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 15:41:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 15:41:44 --> CSRF token verified.
+INFO - 2024-06-15 15:41:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 15:41:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-15 15:41:48 --> CodeIgniter\Router\Exceptions\RouterException: The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Backend/Modules/Administrator::roleMenu"
+in SYSTEMPATH\Router\Router.php on line 495.
+ 1 SYSTEMPATH\Router\Router.php(495): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Backend/Modules/Administrator::roleMenu')
+ 2 SYSTEMPATH\Router\Router.php(202): CodeIgniter\Router\Router->checkRoutes('administrator/rolemenu')
+ 3 SYSTEMPATH\CodeIgniter.php(825): CodeIgniter\Router\Router->handle('administrator/rolemenu')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\framework-4.4.8\\public\\index.php')
+INFO - 2024-06-15 15:42:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 15:42:18 --> CSRF token verified.
+INFO - 2024-06-15 15:42:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 15:42:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 15:42:20 --> CSRF token verified.
+INFO - 2024-06-15 15:42:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 15:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 15:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 15:51:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-15 15:51:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

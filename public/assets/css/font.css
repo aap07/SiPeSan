@@ -1,0 +1,28 @@
+/* Font */
+
+@font-face {
+	font-family: "BebasNeue";
+	src: url("../fonts/bebasneue-bold-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "AlexBrush";
+	src: url("../fonts/alexbrush-regular-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "KaushanScript";
+	src: url("../fonts/kaushanscript-regular-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "SquadOne";
+	src: url("../fonts/squadaone-regular-webfont.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Mandala";
+	src: url("../fonts/Mandala.woff") format("woff");
+}
+
+/* Font */

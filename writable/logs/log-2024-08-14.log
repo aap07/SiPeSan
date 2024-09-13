@@ -1,0 +1,676 @@
+INFO - 2024-08-14 01:29:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 01:29:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 02:52:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 02:52:52 --> CSRF token verified.
+INFO - 2024-08-14 02:52:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 02:52:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 03:46:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 03:46:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 03:46:52 --> CSRF token verified.
+INFO - 2024-08-14 03:46:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 03:47:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 03:47:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 03:47:03 --> CSRF token verified.
+INFO - 2024-08-14 03:52:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 03:52:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 03:52:26 --> CSRF token verified.
+INFO - 2024-08-14 03:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 03:59:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 04:00:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 04:00:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 04:00:29 --> CSRF token verified.
+INFO - 2024-08-14 04:00:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 04:02:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 04:02:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 04:02:45 --> CSRF token verified.
+INFO - 2024-08-14 04:06:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 04:06:26 --> CSRF token verified.
+INFO - 2024-08-14 04:08:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 04:08:32 --> CSRF token verified.
+INFO - 2024-08-14 04:09:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 04:09:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 04:09:21 --> CSRF token verified.
+INFO - 2024-08-14 04:09:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 04:09:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 04:09:24 --> CSRF token verified.
+INFO - 2024-08-14 04:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 04:09:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 04:09:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 04:09:32 --> CSRF token verified.
+INFO - 2024-08-14 04:10:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 04:17:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 04:17:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 04:17:12 --> CSRF token verified.
+INFO - 2024-08-14 04:17:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 04:17:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 04:17:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 04:17:19 --> CSRF token verified.
+INFO - 2024-08-14 04:17:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 04:17:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 04:17:23 --> CSRF token verified.
+INFO - 2024-08-14 04:18:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 04:18:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 04:18:02 --> CSRF token verified.
+INFO - 2024-08-14 04:18:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-14 04:18:04 --> ErrorException: foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\Backend\Modules\Recruitment.php on line 1022.
+ 1 APPPATH\Controllers\Backend\Modules\Recruitment.php(1022): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Controllers\\Backend\\Modules\\Recruitment.php', 1022)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->ratioSubManagement('pendidikan-terakhir')
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-14 04:18:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-14 04:18:39 --> TypeError: CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\demo_spk_ahp\app\Models\SubkriteriaModel.php on line 97
+in SYSTEMPATH\BaseModel.php on line 624.
+ 1 APPPATH\Models\SubkriteriaModel.php(97): CodeIgniter\BaseModel->findAll('pendidikan-terakhir')
+ 2 APPPATH\Controllers\Backend\Modules\Recruitment.php(1021): App\Models\SubkriteriaModel->getSubkriteria('pendidikan-terakhir')
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->ratioSubManagement('pendidikan-terakhir')
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-14 04:23:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-14 04:23:18 --> ErrorException: Attempt to read property "id_subkriteria" on string
+in APPPATH\Controllers\Backend\Modules\Recruitment.php on line 1025.
+ 1 APPPATH\Controllers\Backend\Modules\Recruitment.php(1025): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_subkriteria" on string', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Controllers\\Backend\\Modules\\Recruitment.php', 1025)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->ratioSubManagement('pendidikan-terakhir')
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-14 04:27:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-14 04:27:35 --> ErrorException: Attempt to read property "id_subkriteria" on string
+in APPPATH\Controllers\Backend\Modules\Recruitment.php on line 1025.
+ 1 APPPATH\Controllers\Backend\Modules\Recruitment.php(1025): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_subkriteria" on string', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Controllers\\Backend\\Modules\\Recruitment.php', 1025)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->ratioSubManagement('pendidikan-terakhir')
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-14 04:29:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-14 04:29:58 --> ErrorException: Attempt to read property "id_subkriteria" on string
+in APPPATH\Controllers\Backend\Modules\Recruitment.php on line 1025.
+ 1 APPPATH\Controllers\Backend\Modules\Recruitment.php(1025): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_subkriteria" on string', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Controllers\\Backend\\Modules\\Recruitment.php', 1025)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->ratioSubManagement('pendidikan-terakhir')
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-14 04:31:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-14 04:31:09 --> ParseError: syntax error, unexpected token ";", expecting "]"
+in APPPATH\Controllers\Backend\Modules\Recruitment.php on line 1025.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Controllers\\Backend\\Modules\\Recruitment.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Backend\\Modules\\Recruitment')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Backend\\Modules\\Recruitment')
+ 4 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\Backend\\Modules\\Recruitment', true)
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-14 04:31:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-14 04:31:19 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Controllers\Backend\Modules\Recruitment.php on line 1025.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->ratioSubManagement('pendidikan-terakhir')
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-14 04:31:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-14 04:31:41 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Controllers\Backend\Modules\Recruitment.php on line 1025.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->ratioSubManagement('pendidikan-terakhir')
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-14 04:32:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 04:40:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 04:40:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 04:40:21 --> CSRF token verified.
+INFO - 2024-08-14 04:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 04:42:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 04:42:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 04:42:25 --> CSRF token verified.
+INFO - 2024-08-14 04:42:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 04:42:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 04:42:27 --> CSRF token verified.
+INFO - 2024-08-14 04:42:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 04:42:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 04:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 04:46:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 04:46:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 04:46:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 04:46:47 --> CSRF token verified.
+INFO - 2024-08-14 04:46:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 04:46:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 04:46:52 --> CSRF token verified.
+INFO - 2024-08-14 04:46:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 04:46:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 04:46:56 --> CSRF token verified.
+INFO - 2024-08-14 04:53:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 04:53:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 04:53:03 --> CSRF token verified.
+INFO - 2024-08-14 04:53:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 04:53:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 04:53:10 --> CSRF token verified.
+INFO - 2024-08-14 04:53:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 04:53:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 04:53:36 --> CSRF token verified.
+INFO - 2024-08-14 04:53:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 04:54:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 04:54:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-14 04:54:58 --> ParseError: Unclosed '{' on line 72
+in APPPATH\Views\backend\view\recruitment\ratioSub.php on line 321.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/recruitment/ratioSub', [], true)
+ 3 APPPATH\Controllers\Backend\Modules\Recruitment.php(1033): view('backend/view/recruitment/ratioSub', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->ratioSubManagement('pendidikan-terakhir')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-14 04:56:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 04:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-14 04:56:54 --> ErrorException: foreach() argument must be of type array|object, string given
+in APPPATH\Views\backend\view\recruitment\ratioSub.php on line 75.
+ 1 APPPATH\Views\backend\view\recruitment\ratioSub.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\ratioSub.php', 75)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\ratioSub.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/recruitment/ratioSub', [], true)
+ 5 APPPATH\Controllers\Backend\Modules\Recruitment.php(1033): view('backend/view/recruitment/ratioSub', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->ratioSubManagement('pendidikan-terakhir')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-14 06:12:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 06:51:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 07:02:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 07:03:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-14 07:03:09 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\backend\view\recruitment\ratioSub.php on line 74.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/recruitment/ratioSub', [], true)
+ 4 APPPATH\Controllers\Backend\Modules\Recruitment.php(1033): view('backend/view/recruitment/ratioSub', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->ratioSubManagement('pendidikan-terakhir')
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-14 07:03:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-14 07:03:25 --> ErrorException: Attempt to read property "tipe" on string
+in APPPATH\Views\backend\view\recruitment\ratioSub.php on line 74.
+ 1 APPPATH\Views\backend\view\recruitment\ratioSub.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tipe" on string', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\ratioSub.php', 74)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\ratioSub.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/recruitment/ratioSub', [], true)
+ 5 APPPATH\Controllers\Backend\Modules\Recruitment.php(1033): view('backend/view/recruitment/ratioSub', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->ratioSubManagement('pendidikan-terakhir')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-14 07:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 07:05:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 07:06:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-14 07:06:44 --> ParseError: syntax error, unexpected token "=", expecting ")"
+in APPPATH\Controllers\Backend\Modules\Recruitment.php on line 1021.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Controllers\\Backend\\Modules\\Recruitment.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Backend\\Modules\\Recruitment')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Backend\\Modules\\Recruitment')
+ 4 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\Backend\\Modules\\Recruitment', true)
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-14 07:06:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-14 07:06:57 --> ErrorException: Array to string conversion
+in APPPATH\Views\backend\view\recruitment\ratioSub.php on line 88.
+ 1 APPPATH\Views\backend\view\recruitment\ratioSub.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\ratioSub.php', 88)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\ratioSub.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/recruitment/ratioSub', [], true)
+ 5 APPPATH\Controllers\Backend\Modules\Recruitment.php(1033): view('backend/view/recruitment/ratioSub', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->ratioSubManagement('pendidikan-terakhir')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-14 07:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-14 07:07:28 --> ErrorException: Array to string conversion
+in APPPATH\Views\backend\view\recruitment\ratioSub.php on line 144.
+ 1 APPPATH\Views\backend\view\recruitment\ratioSub.php(144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\ratioSub.php', 144)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\ratioSub.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/recruitment/ratioSub', [], true)
+ 5 APPPATH\Controllers\Backend\Modules\Recruitment.php(1033): view('backend/view/recruitment/ratioSub', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->ratioSubManagement('pendidikan-terakhir')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-14 07:07:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-14 07:07:52 --> ErrorException: Array to string conversion
+in APPPATH\Views\backend\view\recruitment\ratioSub.php on line 188.
+ 1 APPPATH\Views\backend\view\recruitment\ratioSub.php(188): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\ratioSub.php', 188)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\ratioSub.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/recruitment/ratioSub', [], true)
+ 5 APPPATH\Controllers\Backend\Modules\Recruitment.php(1033): view('backend/view/recruitment/ratioSub', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->ratioSubManagement('pendidikan-terakhir')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-14 07:08:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-14 07:08:10 --> ErrorException: Array to string conversion
+in APPPATH\Views\backend\view\recruitment\ratioSub.php on line 202.
+ 1 APPPATH\Views\backend\view\recruitment\ratioSub.php(202): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\ratioSub.php', 202)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\ratioSub.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/recruitment/ratioSub', [], true)
+ 5 APPPATH\Controllers\Backend\Modules\Recruitment.php(1033): view('backend/view/recruitment/ratioSub', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->ratioSubManagement('pendidikan-terakhir')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-14 07:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-14 07:08:28 --> ErrorException: Array to string conversion
+in APPPATH\Views\backend\view\recruitment\ratioSub.php on line 236.
+ 1 APPPATH\Views\backend\view\recruitment\ratioSub.php(236): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\ratioSub.php', 236)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\ratioSub.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/recruitment/ratioSub', [], true)
+ 5 APPPATH\Controllers\Backend\Modules\Recruitment.php(1033): view('backend/view/recruitment/ratioSub', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->ratioSubManagement('pendidikan-terakhir')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-14 07:08:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 07:12:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 07:17:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 07:17:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 07:17:43 --> CSRF token verified.
+INFO - 2024-08-14 07:17:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 07:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 07:17:47 --> CSRF token verified.
+INFO - 2024-08-14 07:17:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 07:17:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 07:17:50 --> CSRF token verified.
+INFO - 2024-08-14 07:17:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 07:26:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 07:28:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 07:38:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 07:39:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 07:39:16 --> CSRF token verified.
+CRITICAL - 2024-08-14 07:39:16 --> ErrorException: foreach() argument must be of type array|object, string given
+in APPPATH\Controllers\Backend\Modules\Recruitment.php on line 971.
+ 1 APPPATH\Controllers\Backend\Modules\Recruitment.php(971): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Controllers\\Backend\\Modules\\Recruitment.php', 971)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->saveNilai()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-14 07:40:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 07:41:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 07:41:00 --> CSRF token verified.
+CRITICAL - 2024-08-14 07:41:00 --> ErrorException: foreach() argument must be of type array|object, string given
+in APPPATH\Controllers\Backend\Modules\Recruitment.php on line 1058.
+ 1 APPPATH\Controllers\Backend\Modules\Recruitment.php(1058): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Controllers\\Backend\\Modules\\Recruitment.php', 1058)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->saveSubratio()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-14 07:43:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 07:43:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 07:43:43 --> CSRF token verified.
+CRITICAL - 2024-08-14 07:43:43 --> ErrorException: foreach() argument must be of type array|object, string given
+in APPPATH\Controllers\Backend\Modules\Recruitment.php on line 1058.
+ 1 APPPATH\Controllers\Backend\Modules\Recruitment.php(1058): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Controllers\\Backend\\Modules\\Recruitment.php', 1058)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->saveSubratio()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-14 07:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-14 07:43:58 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 300.
+ 1 SYSTEMPATH\Security\Security.php(300): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(56): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(475): CodeIgniter\Filters\Filters->run('recruitment/saveSubratio', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-14 07:48:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 07:48:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 07:48:36 --> CSRF token verified.
+CRITICAL - 2024-08-14 07:48:36 --> ErrorException: foreach() argument must be of type array|object, string given
+in APPPATH\Controllers\Backend\Modules\Recruitment.php on line 1068.
+ 1 APPPATH\Controllers\Backend\Modules\Recruitment.php(1068): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Controllers\\Backend\\Modules\\Recruitment.php', 1068)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->saveSubratio()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-14 07:55:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-14 07:55:11 --> ParseError: syntax error, unexpected token "if", expecting "function" or "const"
+in APPPATH\Controllers\Backend\Modules\Recruitment.php on line 1088.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Controllers\\Backend\\Modules\\Recruitment.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Backend\\Modules\\Recruitment')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Backend\\Modules\\Recruitment')
+ 4 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\Backend\\Modules\\Recruitment', true)
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-14 07:55:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 07:55:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 07:55:43 --> CSRF token verified.
+CRITICAL - 2024-08-14 07:55:43 --> ErrorException: foreach() argument must be of type array|object, string given
+in APPPATH\Controllers\Backend\Modules\Recruitment.php on line 1057.
+ 1 APPPATH\Controllers\Backend\Modules\Recruitment.php(1057): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Controllers\\Backend\\Modules\\Recruitment.php', 1057)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->saveSubratio()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-14 08:06:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 08:06:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 08:06:16 --> CSRF token verified.
+CRITICAL - 2024-08-14 08:06:16 --> ErrorException: foreach() argument must be of type array|object, string given
+in APPPATH\Controllers\Backend\Modules\Recruitment.php on line 1055.
+ 1 APPPATH\Controllers\Backend\Modules\Recruitment.php(1055): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Controllers\\Backend\\Modules\\Recruitment.php', 1055)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->saveSubratio()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-14 08:31:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-14 08:31:48 --> ParseError: syntax error, unexpected token "if", expecting "function" or "const"
+in APPPATH\Controllers\Backend\Modules\Recruitment.php on line 1086.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Controllers\\Backend\\Modules\\Recruitment.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Backend\\Modules\\Recruitment')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Backend\\Modules\\Recruitment')
+ 4 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\Backend\\Modules\\Recruitment', true)
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-14 08:33:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-14 08:33:24 --> ParseError: syntax error, unexpected token "if", expecting "function" or "const"
+in APPPATH\Controllers\Backend\Modules\Recruitment.php on line 1076.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Controllers\\Backend\\Modules\\Recruitment.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Backend\\Modules\\Recruitment')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Backend\\Modules\\Recruitment')
+ 4 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\Backend\\Modules\\Recruitment', true)
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-14 08:34:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-14 08:34:01 --> ParseError: syntax error, unexpected token "if", expecting "function" or "const"
+in APPPATH\Controllers\Backend\Modules\Recruitment.php on line 1076.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Controllers\\Backend\\Modules\\Recruitment.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Backend\\Modules\\Recruitment')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Backend\\Modules\\Recruitment')
+ 4 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\Backend\\Modules\\Recruitment', true)
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-14 08:34:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 08:34:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 08:34:53 --> CSRF token verified.
+CRITICAL - 2024-08-14 08:34:53 --> ErrorException: foreach() argument must be of type array|object, string given
+in APPPATH\Controllers\Backend\Modules\Recruitment.php on line 1055.
+ 1 APPPATH\Controllers\Backend\Modules\Recruitment.php(1055): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Controllers\\Backend\\Modules\\Recruitment.php', 1055)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->saveSubratio()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-14 17:39:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 17:39:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 17:39:31 --> CSRF token verified.
+INFO - 2024-08-14 17:39:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 17:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 17:39:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 17:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 17:39:38 --> CSRF token verified.
+INFO - 2024-08-14 17:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 17:39:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 17:39:42 --> CSRF token verified.
+INFO - 2024-08-14 17:39:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-14 17:39:43 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\backend\view\recruitment\ratioSub.php on line 92.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/recruitment/ratioSub', [], true)
+ 4 APPPATH\Controllers\Backend\Modules\Recruitment.php(1032): view('backend/view/recruitment/ratioSub', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->ratioSubManagement('performa-wawancara')
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-14 17:40:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 17:55:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 17:55:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 17:55:50 --> CSRF token verified.
+CRITICAL - 2024-08-14 17:55:50 --> ErrorException: Undefined property: App\Controllers\Backend\Modules\Recruitment::$input
+in APPPATH\Controllers\Backend\Modules\Recruitment.php on line 1039.
+ 1 APPPATH\Controllers\Backend\Modules\Recruitment.php(1039): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Backend\\Modules\\Recruitment::$input', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Controllers\\Backend\\Modules\\Recruitment.php', 1039)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->saveSubratio()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-14 18:00:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:00:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:00:58 --> CSRF token verified.
+CRITICAL - 2024-08-14 18:00:59 --> ErrorException: Undefined property: App\Controllers\Backend\Modules\Recruitment::$input
+in APPPATH\Controllers\Backend\Modules\Recruitment.php on line 1039.
+ 1 APPPATH\Controllers\Backend\Modules\Recruitment.php(1039): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Backend\\Modules\\Recruitment::$input', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Controllers\\Backend\\Modules\\Recruitment.php', 1039)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->saveSubratio()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-14 18:03:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:04:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:04:04 --> CSRF token verified.
+INFO - 2024-08-14 18:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:04:10 --> CSRF token verified.
+INFO - 2024-08-14 18:05:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:05:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:05:47 --> CSRF token verified.
+INFO - 2024-08-14 18:06:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:06:08 --> CSRF token verified.
+INFO - 2024-08-14 18:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:06:58 --> CSRF token verified.
+INFO - 2024-08-14 18:07:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:07:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:07:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:07:34 --> CSRF token verified.
+INFO - 2024-08-14 18:07:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:15:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-14 18:15:42 --> ParseError: syntax error, unexpected single-quoted string "subkriteria_id_dari", expecting ")"
+in APPPATH\Controllers\Backend\Modules\Recruitment.php on line 1058.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Controllers\\Backend\\Modules\\Recruitment.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Backend\\Modules\\Recruitment')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Backend\\Modules\\Recruitment')
+ 4 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\Backend\\Modules\\Recruitment', true)
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-14 18:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:17:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:17:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:17:49 --> CSRF token verified.
+INFO - 2024-08-14 18:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:18:00 --> CSRF token verified.
+INFO - 2024-08-14 18:19:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:19:11 --> CSRF token verified.
+INFO - 2024-08-14 18:19:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:19:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:19:47 --> CSRF token verified.
+ERROR - 2024-08-14 18:19:47 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\xampp\htdocs\demo_spk_ahp\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\demo_spk_ahp\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `su...', 0)
+#1 C:\xampp\htdocs\demo_spk_ahp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `su...')
+#2 C:\xampp\htdocs\demo_spk_ahp\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `su...')
+#3 C:\xampp\htdocs\demo_spk_ahp\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `su...', Array, false)
+#4 C:\xampp\htdocs\demo_spk_ahp\system\Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\demo_spk_ahp\system\BaseModel.php(805): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\demo_spk_ahp\system\Model.php(749): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\demo_spk_ahp\app\Controllers\Backend\Modules\Recruitment.php(1062): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\demo_spk_ahp\system\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->saveSubratio()
+#9 C:\xampp\htdocs\demo_spk_ahp\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+#10 C:\xampp\htdocs\demo_spk_ahp\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\demo_spk_ahp\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\demo_spk_ahp\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-08-14 18:19:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Operand should contain 1 column(s)
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `subkriteria_nilai` (`id_kriteria`, `subkriteria_id_dari`, `subkriteria_id_tujuan`, `nilai`) VALUES (:id_kriteria:, :subkriteria_id_dari:, :subkriteria_id_tujuan:, :nilai:)', [...], false)
+ 2 SYSTEMPATH\Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(805): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(749): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Backend\Modules\Recruitment.php(1062): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->saveSubratio()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+CRITICAL - 2024-08-14 18:19:47 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `subkriteria_nilai` (`id_kriteria`, `subkriteria_id_dari`, `subkriteria_id_tujuan`, `nilai`) VALUES ((\'5\',\'5\',\'5\',\'5\'), 6, 7, 5)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `subkriteria_nilai` (`id_kriteria`, `subkriteria_id_dari`, `subkriteria_id_tujuan`, `nilai`) VALUES ((\'5\',\'5\',\'5\',\'5\'), 6, 7, 5)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `subkriteria_nilai` (`id_kriteria`, `subkriteria_id_dari`, `subkriteria_id_tujuan`, `nilai`) VALUES (:id_kriteria:, :subkriteria_id_dari:, :subkriteria_id_tujuan:, :nilai:)', [...], false)
+ 4 SYSTEMPATH\Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(805): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(749): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Backend\Modules\Recruitment.php(1062): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->saveSubratio()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+CRITICAL - 2024-08-14 18:19:47 --> [Caused by] mysqli_sql_exception: Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `subkriteria_nilai` (`id_kriteria`, `subkriteria_id_dari`, `subkriteria_id_tujuan`, `nilai`) VALUES ((\'5\',\'5\',\'5\',\'5\'), 6, 7, 5)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `subkriteria_nilai` (`id_kriteria`, `subkriteria_id_dari`, `subkriteria_id_tujuan`, `nilai`) VALUES ((\'5\',\'5\',\'5\',\'5\'), 6, 7, 5)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `subkriteria_nilai` (`id_kriteria`, `subkriteria_id_dari`, `subkriteria_id_tujuan`, `nilai`) VALUES ((\'5\',\'5\',\'5\',\'5\'), 6, 7, 5)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `subkriteria_nilai` (`id_kriteria`, `subkriteria_id_dari`, `subkriteria_id_tujuan`, `nilai`) VALUES (:id_kriteria:, :subkriteria_id_dari:, :subkriteria_id_tujuan:, :nilai:)', [...], false)
+ 5 SYSTEMPATH\Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(805): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(749): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Backend\Modules\Recruitment.php(1062): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->saveSubratio()
+10 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-14 18:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:20:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:20:28 --> CSRF token verified.
+INFO - 2024-08-14 18:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:20:43 --> CSRF token verified.
+INFO - 2024-08-14 18:20:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:20:56 --> CSRF token verified.
+INFO - 2024-08-14 18:21:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:21:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:21:09 --> CSRF token verified.
+INFO - 2024-08-14 18:21:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:21:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:21:12 --> CSRF token verified.
+INFO - 2024-08-14 18:21:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:21:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:21:17 --> CSRF token verified.
+INFO - 2024-08-14 18:21:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:21:30 --> CSRF token verified.
+INFO - 2024-08-14 18:21:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:23:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:23:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:23:56 --> CSRF token verified.
+INFO - 2024-08-14 18:26:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:26:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:26:30 --> CSRF token verified.
+INFO - 2024-08-14 18:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:27:18 --> CSRF token verified.
+INFO - 2024-08-14 18:27:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:27:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:27:46 --> CSRF token verified.
+INFO - 2024-08-14 18:27:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:28:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:29:07 --> CSRF token verified.
+INFO - 2024-08-14 18:33:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-14 18:33:44 --> ParseError: syntax error, unexpected variable "$this"
+in APPPATH\Controllers\Backend\Modules\Recruitment.php on line 1042.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Controllers\\Backend\\Modules\\Recruitment.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Backend\\Modules\\Recruitment')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Backend\\Modules\\Recruitment')
+ 4 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\Backend\\Modules\\Recruitment', true)
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-14 18:34:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:34:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:34:13 --> CSRF token verified.
+CRITICAL - 2024-08-14 18:34:13 --> ErrorException: foreach() argument must be of type array|object, string given
+in APPPATH\Controllers\Backend\Modules\Recruitment.php on line 1054.
+ 1 APPPATH\Controllers\Backend\Modules\Recruitment.php(1054): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Controllers\\Backend\\Modules\\Recruitment.php', 1054)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->saveSubratio()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-14 18:35:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:35:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:35:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:35:46 --> CSRF token verified.
+CRITICAL - 2024-08-14 18:35:46 --> ErrorException: foreach() argument must be of type array|object, string given
+in APPPATH\Controllers\Backend\Modules\Recruitment.php on line 1054.
+ 1 APPPATH\Controllers\Backend\Modules\Recruitment.php(1054): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Controllers\\Backend\\Modules\\Recruitment.php', 1054)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->saveSubratio()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-14 18:35:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:36:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:36:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:36:42 --> CSRF token verified.
+CRITICAL - 2024-08-14 18:36:42 --> ErrorException: foreach() argument must be of type array|object, string given
+in APPPATH\Controllers\Backend\Modules\Recruitment.php on line 1054.
+ 1 APPPATH\Controllers\Backend\Modules\Recruitment.php(1054): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Controllers\\Backend\\Modules\\Recruitment.php', 1054)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->saveSubratio()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-14 18:39:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:39:21 --> CSRF token verified.
+CRITICAL - 2024-08-14 18:39:21 --> ErrorException: foreach() argument must be of type array|object, string given
+in APPPATH\Controllers\Backend\Modules\Recruitment.php on line 1052.
+ 1 APPPATH\Controllers\Backend\Modules\Recruitment.php(1052): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Controllers\\Backend\\Modules\\Recruitment.php', 1052)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->saveSubratio()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-14 18:40:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:40:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-14 18:40:14 --> CSRF token verified.

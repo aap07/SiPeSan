@@ -1,0 +1,269 @@
+INFO - 2024-07-05 01:41:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-05 01:41:13 --> ErrorException: Attempt to read property "img_user" on array
+in APPPATH\Views\backend\layout\sidebar.php on line 16.
+ 1 APPPATH\Views\backend\layout\sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "img_user" on array', 'C:\\xampp\\htdocs\\framework-4.4.8\\app\\Views\\backend\\layout\\sidebar.php', 16)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\framework-4.4.8\\app\\Views\\backend\\layout\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('backend/layout/sidebar', null, true)
+ 5 APPPATH\Views\backend\template\template.php(3): CodeIgniter\View\View->include('backend/layout/sidebar')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\framework-4.4.8\\app\\Views\\backend\\template\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('backend/template/template', [], true)
+ 9 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/frontend/article_management', [], true)
+10 APPPATH\Controllers\Backend\Modules\Frontend.php(270): view('backend/view/frontend/article_management', [...])
+11 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Frontend->articleManagement()
+12 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Frontend))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\framework-4.4.8\\public\\index.php')
+INFO - 2024-07-05 01:41:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-05 01:41:23 --> ErrorException: Attempt to read property "img_user" on array
+in APPPATH\Views\backend\layout\sidebar.php on line 16.
+ 1 APPPATH\Views\backend\layout\sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "img_user" on array', 'C:\\xampp\\htdocs\\framework-4.4.8\\app\\Views\\backend\\layout\\sidebar.php', 16)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\framework-4.4.8\\app\\Views\\backend\\layout\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('backend/layout/sidebar', null, true)
+ 5 APPPATH\Views\backend\template\template.php(3): CodeIgniter\View\View->include('backend/layout/sidebar')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\framework-4.4.8\\app\\Views\\backend\\template\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('backend/template/template', [], true)
+ 9 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/frontend/banner_management', [], true)
+10 APPPATH\Controllers\Backend\Modules\Frontend.php(88): view('backend/view/frontend/banner_management', [...])
+11 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Frontend->bannerManagement()
+12 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Frontend))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\framework-4.4.8\\public\\index.php')
+INFO - 2024-07-05 01:41:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 01:41:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-05 01:41:36 --> ErrorException: Attempt to read property "img_user" on array
+in APPPATH\Views\backend\layout\sidebar.php on line 16.
+ 1 APPPATH\Views\backend\layout\sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "img_user" on array', 'C:\\xampp\\htdocs\\framework-4.4.8\\app\\Views\\backend\\layout\\sidebar.php', 16)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\framework-4.4.8\\app\\Views\\backend\\layout\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('backend/layout/sidebar', null, true)
+ 5 APPPATH\Views\backend\template\template.php(3): CodeIgniter\View\View->include('backend/layout/sidebar')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\framework-4.4.8\\app\\Views\\backend\\template\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('backend/template/template', [], true)
+ 9 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/dashboard/index', [], true)
+10 APPPATH\Controllers\Backend\Modules\Dashboard.php(25): view('backend/view/dashboard/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Dashboard->index()
+12 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Dashboard))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\framework-4.4.8\\public\\index.php')
+INFO - 2024-07-05 01:42:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 01:42:37 --> CSRF token verified.
+INFO - 2024-07-05 01:42:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 01:42:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 01:42:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 01:42:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 01:42:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-05 01:42:58 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `menu`.`fungsi_menu` != 2
+                                    ORDER BY `...' at line 5 in C:\xampp\htdocs\framework-4.4.8\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\framework-4.4.8\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `menu`.*...', 0)
+#1 C:\xampp\htdocs\framework-4.4.8\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `menu`.*...')
+#2 C:\xampp\htdocs\framework-4.4.8\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `menu`.*...')
+#3 C:\xampp\htdocs\framework-4.4.8\app\Views\backend\layout\sidebar.php(35): CodeIgniter\Database\BaseConnection->query('SELECT `menu`.*...')
+#4 C:\xampp\htdocs\framework-4.4.8\system\View\View.php(228): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\framework-4.4.8\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp\htdocs\framework-4.4.8\system\View\View.php(469): CodeIgniter\View\View->render('backend/layout/...', NULL, true)
+#7 C:\xampp\htdocs\framework-4.4.8\app\Views\backend\template\template.php(3): CodeIgniter\View\View->include('backend/layout/...')
+#8 C:\xampp\htdocs\framework-4.4.8\system\View\View.php(228): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\framework-4.4.8\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#10 C:\xampp\htdocs\framework-4.4.8\system\View\View.php(244): CodeIgniter\View\View->render('backend/templat...', Array, true)
+#11 C:\xampp\htdocs\framework-4.4.8\system\Common.php(1178): CodeIgniter\View\View->render('backend/view/da...', Array, true)
+#12 C:\xampp\htdocs\framework-4.4.8\app\Controllers\Backend\Modules\Dashboard.php(25): view('backend/view/da...', Array)
+#13 C:\xampp\htdocs\framework-4.4.8\system\CodeIgniter.php(943): App\Controllers\Backend\Modules\Dashboard->index()
+#14 C:\xampp\htdocs\framework-4.4.8\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Dashboard))
+#15 C:\xampp\htdocs\framework-4.4.8\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\framework-4.4.8\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#17 C:\xampp\htdocs\framework-4.4.8\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#18 {main}
+CRITICAL - 2024-07-05 01:42:58 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `menu`.`fungsi_menu` != 2
+                                    ORDER BY `...' at line 5
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Views\backend\layout\sidebar.php(35): CodeIgniter\Database\BaseConnection->query('SELECT `menu`.*
+                                    FROM `menu` JOIN `access` 
+                                    ON `menu`.`id_menu` = `access`.`id_menu`
+                                    WHERE `access`.`id_role` = 
+                                    AND `menu`.`fungsi_menu` != 2
+                                    ORDER BY `access`.`id_menu` ASC')
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\framework-4.4.8\\app\\Views\\backend\\layout\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('backend/layout/sidebar', null, true)
+ 5 APPPATH\Views\backend\template\template.php(3): CodeIgniter\View\View->include('backend/layout/sidebar')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\framework-4.4.8\\app\\Views\\backend\\template\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('backend/template/template', [], true)
+ 9 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/dashboard/index', [], true)
+10 APPPATH\Controllers\Backend\Modules\Dashboard.php(25): view('backend/view/dashboard/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Dashboard->index()
+12 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Dashboard))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\framework-4.4.8\\public\\index.php')
+CRITICAL - 2024-07-05 01:42:58 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `menu`.`fungsi_menu` != 2
+                                    ORDER BY `...' at line 5
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `menu`.*
+                                    FROM `menu` JOIN `access` 
+                                    ON `menu`.`id_menu` = `access`.`id_menu`
+                                    WHERE `access`.`id_role` = 
+                                    AND `menu`.`fungsi_menu` != 2
+                                    ORDER BY `access`.`id_menu` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `menu`.*
+                                    FROM `menu` JOIN `access` 
+                                    ON `menu`.`id_menu` = `access`.`id_menu`
+                                    WHERE `access`.`id_role` = 
+                                    AND `menu`.`fungsi_menu` != 2
+                                    ORDER BY `access`.`id_menu` ASC')
+ 3 APPPATH\Views\backend\layout\sidebar.php(35): CodeIgniter\Database\BaseConnection->query('SELECT `menu`.*
+                                    FROM `menu` JOIN `access` 
+                                    ON `menu`.`id_menu` = `access`.`id_menu`
+                                    WHERE `access`.`id_role` = 
+                                    AND `menu`.`fungsi_menu` != 2
+                                    ORDER BY `access`.`id_menu` ASC')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\framework-4.4.8\\app\\Views\\backend\\layout\\sidebar.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('backend/layout/sidebar', null, true)
+ 7 APPPATH\Views\backend\template\template.php(3): CodeIgniter\View\View->include('backend/layout/sidebar')
+ 8 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\framework-4.4.8\\app\\Views\\backend\\template\\template.php')
+ 9 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('backend/template/template', [], true)
+11 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/dashboard/index', [], true)
+12 APPPATH\Controllers\Backend\Modules\Dashboard.php(25): view('backend/view/dashboard/index', [...])
+13 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Dashboard->index()
+14 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Dashboard))
+15 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+17 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\framework-4.4.8\\public\\index.php')
+CRITICAL - 2024-07-05 01:42:58 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `menu`.`fungsi_menu` != 2
+                                    ORDER BY `...' at line 5
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `menu`.*
+                                    FROM `menu` JOIN `access` 
+                                    ON `menu`.`id_menu` = `access`.`id_menu`
+                                    WHERE `access`.`id_role` = 
+                                    AND `menu`.`fungsi_menu` != 2
+                                    ORDER BY `access`.`id_menu` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `menu`.*
+                                    FROM `menu` JOIN `access` 
+                                    ON `menu`.`id_menu` = `access`.`id_menu`
+                                    WHERE `access`.`id_role` = 
+                                    AND `menu`.`fungsi_menu` != 2
+                                    ORDER BY `access`.`id_menu` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `menu`.*
+                                    FROM `menu` JOIN `access` 
+                                    ON `menu`.`id_menu` = `access`.`id_menu`
+                                    WHERE `access`.`id_role` = 
+                                    AND `menu`.`fungsi_menu` != 2
+                                    ORDER BY `access`.`id_menu` ASC')
+ 4 APPPATH\Views\backend\layout\sidebar.php(35): CodeIgniter\Database\BaseConnection->query('SELECT `menu`.*
+                                    FROM `menu` JOIN `access` 
+                                    ON `menu`.`id_menu` = `access`.`id_menu`
+                                    WHERE `access`.`id_role` = 
+                                    AND `menu`.`fungsi_menu` != 2
+                                    ORDER BY `access`.`id_menu` ASC')
+ 5 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\framework-4.4.8\\app\\Views\\backend\\layout\\sidebar.php')
+ 6 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('backend/layout/sidebar', null, true)
+ 8 APPPATH\Views\backend\template\template.php(3): CodeIgniter\View\View->include('backend/layout/sidebar')
+ 9 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\framework-4.4.8\\app\\Views\\backend\\template\\template.php')
+10 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('backend/template/template', [], true)
+12 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/dashboard/index', [], true)
+13 APPPATH\Controllers\Backend\Modules\Dashboard.php(25): view('backend/view/dashboard/index', [...])
+14 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Dashboard->index()
+15 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Dashboard))
+16 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+18 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\framework-4.4.8\\public\\index.php')
+CRITICAL - 2024-07-05 01:48:30 --> TypeError: CodeIgniter\Router\RouteCollection::get(): Argument #3 ($options) must be of type ?array, string given, called in C:\xampp\htdocs\framework-4.4.8\app\Config\Routes.php on line 23
+in SYSTEMPATH\Router\RouteCollection.php on line 1018.
+ 1 APPPATH\Config\Routes.php(23): CodeIgniter\Router\RouteCollection->get('dashboard', [...], 'Backend\\Modules\\Dashboard::index')
+ 2 SYSTEMPATH\Router\RouteCollection.php(779): CodeIgniter\Router\RouteCollection->{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 3 APPPATH\Config\Routes.php(72): CodeIgniter\Router\RouteCollection->group('', [...], Object(Closure))
+ 4 SYSTEMPATH\Router\RouteCollection.php(345): require('C:\\xampp\\htdocs\\framework-4.4.8\\app\\Config\\Routes.php')
+ 5 SYSTEMPATH\CodeIgniter.php(811): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 6 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\framework-4.4.8\\public\\index.php')
+CRITICAL - 2024-07-05 01:49:16 --> CodeIgniter\Router\Exceptions\RouterException: The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Backend/Modules/Dashboard::index"
+in SYSTEMPATH\Router\Router.php on line 495.
+ 1 SYSTEMPATH\Router\Router.php(495): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Backend/Modules/Dashboard::index')
+ 2 SYSTEMPATH\Router\Router.php(202): CodeIgniter\Router\Router->checkRoutes('dashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(825): CodeIgniter\Router\Router->handle('dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\framework-4.4.8\\public\\index.php')
+INFO - 2024-07-05 01:49:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 01:49:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 01:50:56 --> CSRF token verified.
+INFO - 2024-07-05 01:50:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 01:50:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 01:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 01:51:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 01:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 01:52:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 01:52:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 01:52:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 01:52:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 01:52:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 01:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 01:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 01:52:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 01:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 01:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 01:54:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 01:54:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 01:54:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 01:54:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 01:54:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 01:54:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 01:54:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 01:54:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 01:54:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 02:00:51 --> CSRF token verified.
+INFO - 2024-07-05 02:00:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 02:00:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 02:01:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 02:01:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 02:01:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 02:07:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 02:08:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 02:08:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 02:09:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 02:10:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 02:10:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 02:10:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 02:10:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 02:12:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 02:12:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 02:12:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 02:13:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 02:13:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 02:13:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 02:13:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 02:14:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 02:14:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 02:15:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 02:15:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 02:15:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 02:52:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 02:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 02:53:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 02:53:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 02:54:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 02:54:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 02:54:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 02:54:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 02:56:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 02:57:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 07:30:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 07:30:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-05 07:30:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

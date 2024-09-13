@@ -1,0 +1,741 @@
+INFO - 2024-08-17 13:30:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 13:31:09 --> CSRF token verified.
+INFO - 2024-08-17 13:31:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 13:31:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 13:31:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 13:31:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 13:31:16 --> CSRF token verified.
+INFO - 2024-08-17 13:31:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-17 13:31:17 --> ErrorException: Attempt to read property "id_applicants" on array
+in APPPATH\Controllers\Backend\Modules\Recruitment.php on line 1181.
+ 1 APPPATH\Controllers\Backend\Modules\Recruitment.php(1181): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_applicants" on array', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Controllers\\Backend\\Modules\\Recruitment.php', 1181)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->resultsApplicant()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 13:40:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-17 13:40:48 --> ParseError: syntax error, unexpected variable "$applicants", expecting "{"
+in APPPATH\Helpers\myhelper_helper.php on line 75.
+ 1 SYSTEMPATH\Controller.php(92): helper([...])
+ 2 APPPATH\Controllers\BaseController.php(52): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 3 SYSTEMPATH\CodeIgniter.php(916): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 13:41:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-17 13:41:16 --> Error: Object of class stdClass could not be converted to string
+in APPPATH\Views\backend\view\recruitment\results.php on line 46.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/recruitment/results', [], true)
+ 4 APPPATH\Controllers\Backend\Modules\Recruitment.php(1178): view('backend/view/recruitment/results', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->resultsApplicant()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 13:41:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-17 13:41:45 --> ParseError: syntax error, unexpected variable "$nm_applicants", expecting "," or ";"
+in APPPATH\Views\backend\view\recruitment\results.php on line 46.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/recruitment/results', [], true)
+ 3 APPPATH\Controllers\Backend\Modules\Recruitment.php(1178): view('backend/view/recruitment/results', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->resultsApplicant()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 13:43:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-17 13:43:33 --> ParseError: syntax error, unexpected token "<"
+in APPPATH\Views\backend\view\recruitment\results.php on line 45.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/recruitment/results', [], true)
+ 3 APPPATH\Controllers\Backend\Modules\Recruitment.php(1178): view('backend/view/recruitment/results', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->resultsApplicant()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 13:44:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-17 13:44:38 --> Error: Object of class stdClass could not be converted to string
+in APPPATH\Views\backend\view\recruitment\results.php on line 47.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/recruitment/results', [], true)
+ 4 APPPATH\Controllers\Backend\Modules\Recruitment.php(1178): view('backend/view/recruitment/results', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->resultsApplicant()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 13:45:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 13:45:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 13:53:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-17 13:53:18 --> ErrorException: Attempt to read property "id_applicants" on array
+in APPPATH\Views\backend\view\recruitment\results.php on line 43.
+ 1 APPPATH\Views\backend\view\recruitment\results.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_applicants" on array', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\results.php', 43)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\results.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/recruitment/results', [], true)
+ 5 APPPATH\Controllers\Backend\Modules\Recruitment.php(1178): view('backend/view/recruitment/results', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->resultsApplicant()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 13:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 13:54:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 13:54:53 --> CSRF token verified.
+INFO - 2024-08-17 13:54:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 13:55:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 13:56:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-17 13:56:15 --> ErrorException: Attempt to read property "id_applicants" on array
+in APPPATH\Controllers\Backend\Modules\Recruitment.php on line 1172.
+ 1 APPPATH\Controllers\Backend\Modules\Recruitment.php(1172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_applicants" on array', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Controllers\\Backend\\Modules\\Recruitment.php', 1172)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->resultsApplicant()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 13:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 13:56:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 13:56:20 --> CSRF token verified.
+INFO - 2024-08-17 13:58:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-17 13:58:21 --> ErrorException: Attempt to read property "id_applicants" on array
+in APPPATH\Controllers\Backend\Modules\Recruitment.php on line 1172.
+ 1 APPPATH\Controllers\Backend\Modules\Recruitment.php(1172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_applicants" on array', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Controllers\\Backend\\Modules\\Recruitment.php', 1172)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->resultsApplicant()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 13:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-17 13:59:26 --> ErrorException: Undefined variable $table
+in APPPATH\Models\ApplicantsNilaiModel.php on line 21.
+ 1 APPPATH\Models\ApplicantsNilaiModel.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $table', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Models\\ApplicantsNilaiModel.php', 21)
+ 2 APPPATH\Controllers\Backend\Modules\Recruitment.php(1171): App\Models\ApplicantsNilaiModel->getApplicantsNilai()
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->resultsApplicant()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 14:00:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-17 14:00:20 --> ErrorException: Undefined array key "id_applicants"
+in APPPATH\Controllers\Backend\Modules\Recruitment.php on line 1172.
+ 1 APPPATH\Controllers\Backend\Modules\Recruitment.php(1172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_applicants"', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Controllers\\Backend\\Modules\\Recruitment.php', 1172)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->resultsApplicant()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 14:01:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 14:13:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-17 14:13:10 --> ErrorException: Attempt to read property "id_applicants" on array
+in APPPATH\Controllers\Backend\Modules\Recruitment.php on line 1181.
+ 1 APPPATH\Controllers\Backend\Modules\Recruitment.php(1181): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_applicants" on array', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Controllers\\Backend\\Modules\\Recruitment.php', 1181)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->resultsApplicant()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 14:14:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 14:19:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-17 14:19:34 --> ParseError: syntax error, unexpected token ";", expecting ")"
+in APPPATH\Controllers\Backend\Modules\Recruitment.php on line 1183.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Controllers\\Backend\\Modules\\Recruitment.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Backend\\Modules\\Recruitment')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Backend\\Modules\\Recruitment')
+ 4 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\Backend\\Modules\\Recruitment', true)
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 14:19:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 14:20:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 14:41:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 14:41:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 14:44:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 14:44:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-17 14:44:50 --> ErrorException: Undefined array key "nm_applicants"
+in APPPATH\Controllers\Backend\Modules\Recruitment.php on line 1179.
+ 1 APPPATH\Controllers\Backend\Modules\Recruitment.php(1179): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nm_applicants"', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Controllers\\Backend\\Modules\\Recruitment.php', 1179)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->resultsApplicant()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 14:45:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-17 14:45:35 --> ErrorException: Attempt to read property "nm_applicants" on array
+in APPPATH\Controllers\Backend\Modules\Recruitment.php on line 1179.
+ 1 APPPATH\Controllers\Backend\Modules\Recruitment.php(1179): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nm_applicants" on array', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Controllers\\Backend\\Modules\\Recruitment.php', 1179)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->resultsApplicant()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 14:46:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-17 14:46:03 --> ErrorException: Undefined array key "id_applicants"
+in APPPATH\Controllers\Backend\Modules\Recruitment.php on line 1179.
+ 1 APPPATH\Controllers\Backend\Modules\Recruitment.php(1179): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_applicants"', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Controllers\\Backend\\Modules\\Recruitment.php', 1179)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->resultsApplicant()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 14:46:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 14:47:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 14:47:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 14:47:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 14:48:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 14:55:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 14:55:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-17 14:55:37 --> ErrorException: Undefined array key 0
+in APPPATH\Controllers\Backend\Modules\Recruitment.php on line 1183.
+ 1 APPPATH\Controllers\Backend\Modules\Recruitment.php(1183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Controllers\\Backend\\Modules\\Recruitment.php', 1183)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->resultsApplicant()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 14:56:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 14:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-17 14:56:16 --> ErrorException: Undefined array key 0
+in APPPATH\Controllers\Backend\Modules\Recruitment.php on line 1182.
+ 1 APPPATH\Controllers\Backend\Modules\Recruitment.php(1182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Controllers\\Backend\\Modules\\Recruitment.php', 1182)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->resultsApplicant()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 14:56:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-17 14:56:26 --> ParseError: syntax error, unexpected integer "1", expecting identifier or variable or "{" or "$"
+in APPPATH\Controllers\Backend\Modules\Recruitment.php on line 1182.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Controllers\\Backend\\Modules\\Recruitment.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Backend\\Modules\\Recruitment')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Backend\\Modules\\Recruitment')
+ 4 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\Backend\\Modules\\Recruitment', true)
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 14:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 14:57:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-17 14:57:52 --> ErrorException: Undefined array key "id_applicants"
+in APPPATH\Models\ApplicantsNilaiModel.php on line 72.
+ 1 APPPATH\Models\ApplicantsNilaiModel.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_applicants"', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Models\\ApplicantsNilaiModel.php', 72)
+ 2 APPPATH\Controllers\Backend\Modules\Recruitment.php(1178): App\Models\ApplicantsNilaiModel->getApplicants()
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->resultsApplicant()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 14:58:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-17 14:58:39 --> ErrorException: Undefined array key "id_applicants"
+in APPPATH\Models\ApplicantsNilaiModel.php on line 72.
+ 1 APPPATH\Models\ApplicantsNilaiModel.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_applicants"', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Models\\ApplicantsNilaiModel.php', 72)
+ 2 APPPATH\Controllers\Backend\Modules\Recruitment.php(1178): App\Models\ApplicantsNilaiModel->getApplicants()
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->resultsApplicant()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 15:01:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 15:02:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-17 15:02:23 --> ErrorException: Undefined array key 0
+in APPPATH\Controllers\Backend\Modules\Recruitment.php on line 1182.
+ 1 APPPATH\Controllers\Backend\Modules\Recruitment.php(1182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Controllers\\Backend\\Modules\\Recruitment.php', 1182)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->resultsApplicant()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 16:54:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-17 16:54:23 --> ErrorException: Undefined property: stdClass::$nm_applicants
+in APPPATH\Controllers\Backend\Modules\Recruitment.php on line 1181.
+ 1 APPPATH\Controllers\Backend\Modules\Recruitment.php(1181): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nm_applicants', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Controllers\\Backend\\Modules\\Recruitment.php', 1181)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->resultsApplicant()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 16:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 16:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 16:55:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 16:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-17 16:58:04 --> ErrorException: Undefined variable $kriteria
+in APPPATH\Views\backend\view\recruitment\results.php on line 29.
+ 1 APPPATH\Views\backend\view\recruitment\results.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kriteria', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\results.php', 29)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\results.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/recruitment/results', [], true)
+ 5 APPPATH\Controllers\Backend\Modules\Recruitment.php(1180): view('backend/view/recruitment/results', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->resultsApplicant()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 16:59:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 17:00:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 17:00:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 17:05:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-17 17:05:17 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Views\backend\view\recruitment\results.php on line 45.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/recruitment/results', [], true)
+ 4 APPPATH\Controllers\Backend\Modules\Recruitment.php(1180): view('backend/view/recruitment/results', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->resultsApplicant()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 17:05:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 17:09:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 17:39:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-17 17:39:51 --> ParseError: syntax error, unexpected variable "$this"
+in APPPATH\Models\ApplicantsNilaiModel.php on line 28.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Models\\ApplicantsNilaiModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ApplicantsNilaiModel')
+ 3 APPPATH\Controllers\Backend\Modules\Recruitment.php(22): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ApplicantsNilaiModel')
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Backend\Modules\Recruitment->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 17:40:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-17 17:40:34 --> ErrorException: Cannot redeclare App\Models\ApplicantsNilaiModel::getApplicantsSlug()
+in APPPATH\Models\ApplicantsNilaiModel.php on line 32.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-08-17 17:41:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-17 17:41:01 --> ErrorException: Undefined variable $rKriteria
+in APPPATH\Views\backend\view\recruitment\results.php on line 54.
+ 1 APPPATH\Views\backend\view\recruitment\results.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rKriteria', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\results.php', 54)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\results.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/recruitment/results', [], true)
+ 5 APPPATH\Controllers\Backend\Modules\Recruitment.php(1182): view('backend/view/recruitment/results', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->resultsApplicant()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 17:41:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-17 17:41:44 --> ParseError: syntax error, unexpected token ">"
+in APPPATH\Views\backend\view\recruitment\results.php on line 47.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/recruitment/results', [], true)
+ 3 APPPATH\Controllers\Backend\Modules\Recruitment.php(1182): view('backend/view/recruitment/results', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->resultsApplicant()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 17:42:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 17:42:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 17:42:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 17:42:14 --> CSRF token verified.
+CRITICAL - 2024-08-17 17:42:14 --> BadMethodCallException: Call to undefined method App\Models\ApplicantsNilaiModel::getApplicants
+in SYSTEMPATH\Model.php on line 879.
+ 1 APPPATH\Controllers\Backend\Modules\Recruitment.php(67): CodeIgniter\Model->__call('getApplicants', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->listApplicants()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 17:42:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 17:42:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 17:42:47 --> CSRF token verified.
+CRITICAL - 2024-08-17 17:42:48 --> BadMethodCallException: Call to undefined method App\Models\ApplicantsNilaiModel::getApplicants
+in SYSTEMPATH\Model.php on line 879.
+ 1 APPPATH\Controllers\Backend\Modules\Recruitment.php(67): CodeIgniter\Model->__call('getApplicants', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->listApplicants()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 17:42:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 17:42:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 17:42:57 --> CSRF token verified.
+INFO - 2024-08-17 17:42:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 17:43:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 17:43:00 --> CSRF token verified.
+CRITICAL - 2024-08-17 17:43:00 --> BadMethodCallException: Call to undefined method App\Models\ApplicantsNilaiModel::getApplicants
+in SYSTEMPATH\Model.php on line 879.
+ 1 APPPATH\Controllers\Backend\Modules\Recruitment.php(67): CodeIgniter\Model->__call('getApplicants', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->listApplicants()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 17:44:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 17:44:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 17:44:19 --> CSRF token verified.
+CRITICAL - 2024-08-17 17:44:19 --> BadMethodCallException: Call to undefined method App\Models\ApplicantsNilaiModel::getApplicants
+in SYSTEMPATH\Model.php on line 879.
+ 1 APPPATH\Controllers\Backend\Modules\Recruitment.php(67): CodeIgniter\Model->__call('getApplicants', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->listApplicants()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 17:44:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 17:44:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 17:44:59 --> CSRF token verified.
+CRITICAL - 2024-08-17 17:45:00 --> BadMethodCallException: Call to undefined method App\Models\ApplicantsNilaiModel::getApplicants
+in SYSTEMPATH\Model.php on line 879.
+ 1 APPPATH\Controllers\Backend\Modules\Recruitment.php(67): CodeIgniter\Model->__call('getApplicants', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->listApplicants()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 17:45:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 17:45:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 17:45:56 --> CSRF token verified.
+INFO - 2024-08-17 17:48:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 17:48:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 17:48:26 --> CSRF token verified.
+INFO - 2024-08-17 17:49:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 17:49:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-17 17:49:31 --> ErrorException: Undefined variable $rKriteria
+in APPPATH\Views\backend\view\recruitment\results.php on line 54.
+ 1 APPPATH\Views\backend\view\recruitment\results.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rKriteria', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\results.php', 54)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\results.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/recruitment/results', [], true)
+ 5 APPPATH\Controllers\Backend\Modules\Recruitment.php(1180): view('backend/view/recruitment/results', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->resultsApplicant()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 17:49:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-17 17:49:44 --> ErrorException: Undefined property: stdClass::$id_kriteria
+in APPPATH\Views\backend\view\recruitment\results.php on line 54.
+ 1 APPPATH\Views\backend\view\recruitment\results.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_kriteria', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\results.php', 54)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\results.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/recruitment/results', [], true)
+ 5 APPPATH\Controllers\Backend\Modules\Recruitment.php(1180): view('backend/view/recruitment/results', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->resultsApplicant()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 17:50:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-17 17:50:42 --> ErrorException: Undefined variable $id
+in APPPATH\Helpers\myhelper_helper.php on line 87.
+ 1 APPPATH\Helpers\myhelper_helper.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Helpers\\myhelper_helper.php', 87)
+ 2 APPPATH\Views\backend\view\recruitment\results.php(57): getSubkritHasilId('1', '1')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\results.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/recruitment/results', [], true)
+ 6 APPPATH\Controllers\Backend\Modules\Recruitment.php(1180): view('backend/view/recruitment/results', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->resultsApplicant()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 17:51:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-17 17:51:15 --> BadMethodCallException: Call to undefined method App\Models\ApplicantsNilaiModel::getSubkritHasilId
+in SYSTEMPATH\Model.php on line 879.
+ 1 APPPATH\Helpers\myhelper_helper.php(87): CodeIgniter\Model->__call('getSubkritHasilId', [...])
+ 2 APPPATH\Views\backend\view\recruitment\results.php(57): getSubkritHasilId('1', '1')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\results.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/recruitment/results', [], true)
+ 6 APPPATH\Controllers\Backend\Modules\Recruitment.php(1180): view('backend/view/recruitment/results', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->resultsApplicant()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 17:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-17 17:54:18 --> ParseError: syntax error, unexpected variable "$this"
+in APPPATH\Models\ApplicantsNilaiModel.php on line 46.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Models\\ApplicantsNilaiModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ApplicantsNilaiModel')
+ 3 APPPATH\Controllers\Backend\Modules\Recruitment.php(22): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ApplicantsNilaiModel')
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Backend\Modules\Recruitment->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 17:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-17 17:54:33 --> Error: Call to undefined function ambil_prioritas()
+in APPPATH\Views\backend\view\recruitment\results.php on line 60.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/recruitment/results', [], true)
+ 4 APPPATH\Controllers\Backend\Modules\Recruitment.php(1180): view('backend/view/recruitment/results', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->resultsApplicant()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 17:55:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-17 17:55:01 --> ParseError: syntax error, unexpected token "}"
+in APPPATH\Views\backend\view\recruitment\results.php on line 63.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/recruitment/results', [], true)
+ 3 APPPATH\Controllers\Backend\Modules\Recruitment.php(1180): view('backend/view/recruitment/results', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->resultsApplicant()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 17:55:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 17:58:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 17:58:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-17 17:58:26 --> ErrorException: Object of class stdClass could not be converted to float
+in APPPATH\Views\backend\view\recruitment\results.php on line 62.
+ 1 APPPATH\Views\backend\view\recruitment\results.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Object of class stdClass could not be converted to float', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\results.php', 62)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\results.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/recruitment/results', [], true)
+ 5 APPPATH\Controllers\Backend\Modules\Recruitment.php(1180): view('backend/view/recruitment/results', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->resultsApplicant()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 17:58:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-17 17:58:43 --> TypeError: number_format(): Argument #1 ($num) must be of type float, stdClass given
+in APPPATH\Views\backend\view\recruitment\results.php on line 62.
+ 1 APPPATH\Views\backend\view\recruitment\results.php(62): number_format(Object(stdClass), 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\results.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/recruitment/results', [], true)
+ 5 APPPATH\Controllers\Backend\Modules\Recruitment.php(1180): view('backend/view/recruitment/results', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->resultsApplicant()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 17:59:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-17 17:59:00 --> ErrorException: Object of class stdClass could not be converted to float
+in APPPATH\Views\backend\view\recruitment\results.php on line 62.
+ 1 APPPATH\Views\backend\view\recruitment\results.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Object of class stdClass could not be converted to float', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\results.php', 62)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\results.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/recruitment/results', [], true)
+ 5 APPPATH\Controllers\Backend\Modules\Recruitment.php(1180): view('backend/view/recruitment/results', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->resultsApplicant()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 17:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-17 17:59:26 --> Error: Object of class stdClass could not be converted to string
+in APPPATH\Views\backend\view\recruitment\results.php on line 62.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/recruitment/results', [], true)
+ 4 APPPATH\Controllers\Backend\Modules\Recruitment.php(1180): view('backend/view/recruitment/results', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->resultsApplicant()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 17:59:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 18:00:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 18:02:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-17 18:02:08 --> ErrorException: Attempt to read property "prioritas" on array
+in APPPATH\Views\backend\view\recruitment\results.php on line 60.
+ 1 APPPATH\Views\backend\view\recruitment\results.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "prioritas" on array', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\results.php', 60)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\results.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/recruitment/results', [], true)
+ 5 APPPATH\Controllers\Backend\Modules\Recruitment.php(1180): view('backend/view/recruitment/results', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->resultsApplicant()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 18:02:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-17 18:02:31 --> ErrorException: Attempt to read property "prioritas" on array
+in APPPATH\Views\backend\view\recruitment\results.php on line 60.
+ 1 APPPATH\Views\backend\view\recruitment\results.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "prioritas" on array', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\results.php', 60)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\results.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/recruitment/results', [], true)
+ 5 APPPATH\Controllers\Backend\Modules\Recruitment.php(1180): view('backend/view/recruitment/results', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->resultsApplicant()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 18:03:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-17 18:03:04 --> ErrorException: Attempt to read property "prioritas" on array
+in APPPATH\Views\backend\view\recruitment\results.php on line 60.
+ 1 APPPATH\Views\backend\view\recruitment\results.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "prioritas" on array', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\results.php', 60)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\results.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/recruitment/results', [], true)
+ 5 APPPATH\Controllers\Backend\Modules\Recruitment.php(1180): view('backend/view/recruitment/results', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->resultsApplicant()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 18:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-17 18:03:29 --> ErrorException: Attempt to read property "prioritas" on array
+in APPPATH\Views\backend\view\recruitment\results.php on line 60.
+ 1 APPPATH\Views\backend\view\recruitment\results.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "prioritas" on array', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\results.php', 60)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\results.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/recruitment/results', [], true)
+ 5 APPPATH\Controllers\Backend\Modules\Recruitment.php(1180): view('backend/view/recruitment/results', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->resultsApplicant()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 18:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 18:04:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-17 18:04:37 --> ErrorException: Attempt to read property "prioritas" on array
+in APPPATH\Helpers\myhelper_helper.php on line 102.
+ 1 APPPATH\Helpers\myhelper_helper.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "prioritas" on array', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Helpers\\myhelper_helper.php', 102)
+ 2 APPPATH\Views\backend\view\recruitment\results.php(59): nilPrioSubkrit(Object(stdClass))
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\results.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/recruitment/results', [], true)
+ 6 APPPATH\Controllers\Backend\Modules\Recruitment.php(1180): view('backend/view/recruitment/results', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->resultsApplicant()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 18:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-17 18:07:50 --> ErrorException: Undefined variable $prioSubkrit
+in APPPATH\Views\backend\view\recruitment\results.php on line 60.
+ 1 APPPATH\Views\backend\view\recruitment\results.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prioSubkrit', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\results.php', 60)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\results.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/recruitment/results', [], true)
+ 5 APPPATH\Controllers\Backend\Modules\Recruitment.php(1180): view('backend/view/recruitment/results', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->resultsApplicant()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 18:08:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-17 18:08:11 --> ErrorException: Attempt to read property "prioritas" on array
+in APPPATH\Views\backend\view\recruitment\results.php on line 61.
+ 1 APPPATH\Views\backend\view\recruitment\results.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "prioritas" on array', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\results.php', 61)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\results.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/recruitment/results', [], true)
+ 5 APPPATH\Controllers\Backend\Modules\Recruitment.php(1180): view('backend/view/recruitment/results', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->resultsApplicant()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 18:08:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-17 18:08:33 --> ErrorException: Array to string conversion
+in APPPATH\Views\backend\view\recruitment\results.php on line 64.
+ 1 APPPATH\Views\backend\view\recruitment\results.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\results.php', 64)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\results.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/recruitment/results', [], true)
+ 5 APPPATH\Controllers\Backend\Modules\Recruitment.php(1180): view('backend/view/recruitment/results', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->resultsApplicant()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 18:08:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-17 18:08:42 --> ErrorException: Attempt to read property "prioritas" on array
+in APPPATH\Views\backend\view\recruitment\results.php on line 64.
+ 1 APPPATH\Views\backend\view\recruitment\results.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "prioritas" on array', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\results.php', 64)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\results.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/recruitment/results', [], true)
+ 5 APPPATH\Controllers\Backend\Modules\Recruitment.php(1180): view('backend/view/recruitment/results', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->resultsApplicant()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 18:10:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-17 18:10:17 --> ErrorException: Undefined variable $prioSubkrit
+in APPPATH\Views\backend\view\recruitment\results.php on line 60.
+ 1 APPPATH\Views\backend\view\recruitment\results.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prioSubkrit', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\results.php', 60)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\results.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/recruitment/results', [], true)
+ 5 APPPATH\Controllers\Backend\Modules\Recruitment.php(1180): view('backend/view/recruitment/results', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->resultsApplicant()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 18:10:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-17 18:10:26 --> ErrorException: Undefined array key "prioritas"
+in APPPATH\Views\backend\view\recruitment\results.php on line 61.
+ 1 APPPATH\Views\backend\view\recruitment\results.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prioritas"', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\results.php', 61)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\results.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/recruitment/results', [], true)
+ 5 APPPATH\Controllers\Backend\Modules\Recruitment.php(1180): view('backend/view/recruitment/results', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->resultsApplicant()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 18:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-17 18:11:07 --> ErrorException: Undefined variable $prioSubkrit
+in APPPATH\Views\backend\view\recruitment\results.php on line 60.
+ 1 APPPATH\Views\backend\view\recruitment\results.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prioSubkrit', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\results.php', 60)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\results.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/recruitment/results', [], true)
+ 5 APPPATH\Controllers\Backend\Modules\Recruitment.php(1180): view('backend/view/recruitment/results', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->resultsApplicant()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 18:11:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-17 18:11:14 --> ErrorException: Attempt to read property "prioritas" on array
+in APPPATH\Views\backend\view\recruitment\results.php on line 61.
+ 1 APPPATH\Views\backend\view\recruitment\results.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "prioritas" on array', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\results.php', 61)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\results.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/recruitment/results', [], true)
+ 5 APPPATH\Controllers\Backend\Modules\Recruitment.php(1180): view('backend/view/recruitment/results', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->resultsApplicant()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 18:11:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-17 18:12:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-17 18:12:28 --> ErrorException: Array to string conversion
+in APPPATH\Views\backend\view\recruitment\results.php on line 65.
+ 1 APPPATH\Views\backend\view\recruitment\results.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\results.php', 65)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\results.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/recruitment/results', [], true)
+ 5 APPPATH\Controllers\Backend\Modules\Recruitment.php(1180): view('backend/view/recruitment/results', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->resultsApplicant()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')
+INFO - 2024-08-17 18:12:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-17 18:12:43 --> ErrorException: Attempt to read property "prioritas" on array
+in APPPATH\Views\backend\view\recruitment\results.php on line 65.
+ 1 APPPATH\Views\backend\view\recruitment\results.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "prioritas" on array', 'C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\results.php', 65)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\demo_spk_ahp\\app\\Views\\backend\\view\\recruitment\\results.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('backend/view/recruitment/results', [], true)
+ 5 APPPATH\Controllers\Backend\Modules\Recruitment.php(1180): view('backend/view/recruitment/results', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Backend\Modules\Recruitment->resultsApplicant()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Modules\Recruitment))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\demo_spk_ahp\\public\\index.php')

@@ -1,0 +1,72 @@
+/* Backend */
+.text-auth {
+	font-family: "Mandala", "Arial Narrow", arial, sans-serif;
+	font-size: 50px;
+}
+
+.text-sign {
+	font-family: "Mandala", "Arial Narrow", arial, sans-serif;
+}
+
+/* Frontend */
+.navbar_fixed {
+	position: fixed;
+    width: 100%;
+    top: -70px;
+    left: 0;
+    right: 0;
+    transform: translateY(70px);
+    transition: transform 500ms ease, background 500ms ease;
+    -webkit-transition: transform 500ms ease, background 500ms ease;
+    box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1); 
+    z-index: 1000;
+}
+
+.image-fluid {
+    max-width: 100%;
+    height: 180px;
+
+}
+.image-fluid-single {
+    max-width: 100%;
+    height: 360px;
+}
+
+.text-justify{
+	text-align: justify;
+}
+
+.isi{
+	max-width: 100%; /* Memastikan div tidak melampaui lebar kontainer */
+	overflow-wrap: break-word; /* Memastikan kata-kata panjang terputus dan tidak meluap */
+	word-break: break-word; /* Memastikan kata-kata panjang terputus dan tidak meluap */
+	white-space: normal; /* Memastikan teks dibungkus dengan benar */
+}
+
+/* Tombol WA */
+.btn-wa {
+	position: fixed;
+	display: none;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	left: 45px;
+    bottom: 45px;
+	background: #48ff00;
+	color: #fff;
+	transition: display 0.5s ease-in-out;
+	z-index: 99;
+}
+
+.btn-wa i {
+	font-size: 38px;
+	position: absolute;
+	top: 5px;
+	left: 9px;
+}
+
+.btn-wa:hover {
+	color: #fff;
+	background: #73ff3c;
+	transition: 0.3s ease-in-out;
+}
